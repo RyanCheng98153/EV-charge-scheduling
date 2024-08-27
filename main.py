@@ -1,0 +1,63 @@
+class Vehicle:
+    def __init__(self, 
+                 _id: int,
+                 _weight: float,
+                 _battery: float,
+                 ) -> None:
+        
+        self.ID: int = id
+        self.WEIGHT: float = _weight
+        self.BATTERY_CAPACITY: float = _battery
+        
+        self.soc: float = 100
+        
+    def charge(self, _time:int, _energy:float ) -> float :
+        self.soc += _energy / self.BATTERY_CAPACITY
+        price = self.__getChargePrice(_time, _energy)
+        return price
+
+    def dischargeTravel(self, _distance: float):
+        dischargeEnergy = self.__getDischargeEnergy( _distance)
+        self.soc -= dischargeEnergy / self.BATTERY_CAPACITY
+    
+    def __getDischargeEnergy(self, _distance: float):
+        ALPHA = 0.6
+        return ALPHA * self.WEIGHT * _distance
+    
+    def __getChargePrice(_time: int, _energy: float ):
+        PRICE_PER_CHARGE: float = 1.0
+        NIGHT_PRICE_RATIO: float = 2.0
+        
+        price = _energy * PRICE_PER_CHARGE
+        
+        if _time % 24 < 9: # NIGHT Price
+            return price * NIGHT_PRICE_RATIO
+        return price # DAY Price
+    
+    
+class Schedule:
+    def __init__(self, _fleets: list[Vehicle] = [] ):
+        self.fleets: list[Vehicle] = _fleets
+        
+        
+    def setFleets(self, _fleet: list[Vehicle] ):
+        for vehicle in _fleet:
+            self.fleets.append(vehicle)
+    
+    
+    
+def main():
+    print("Start")
+    schedule = Schedule()
+    schedule.setFleets([
+        Vehicle( 0, 1000, 1000 ),
+        Vehicle( 1, 2000, 1000 ),
+        Vehicle( 2, 2000, 1000 ),
+        Vehicle( 3, 3000, 1000 ),
+        Vehicle( 4, 3000, 1000 ),
+    ])
+    
+    
+    
+if __name__ == "__main__":
+    main()
