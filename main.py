@@ -9,7 +9,9 @@ class Vehicle:
         self.WEIGHT: float = _weight
         self.BATTERY_CAPACITY: float = _battery
         self.HEALTH_SOC = [0.2, 0.8]
+        self.ALPHA = 0.6
         
+        self.cycle_life = 1
         self.soc: float = 100
         self.remain_energy: float = self.BATTERY_CAPACITY
     
@@ -22,8 +24,7 @@ class Vehicle:
     
     # EC_v
     def func7_getTravelEnergyCost(self, _distance: float) -> float:
-        ALPHA = 0.6
-        dischargeEnergy = ALPHA * self.WEIGHT * _distance
+        dischargeEnergy = self.ALPHA * self.WEIGHT * _distance
         return dischargeEnergy
     
     # b_vt
@@ -43,12 +44,11 @@ class Vehicle:
     
     # DCH
     def func11_getHealthDegradation(self, _energy_cost: float) -> float:
-        cycle_life = 1
         DoD = _energy_cost / self.BATTERY_CAPACITY
         HEALTH_SOC_MIN, HEALTH_SOC_MAX  = self.HEALTH_SOC
         
         numerator = abs( HEALTH_SOC_MAX - self.remain_energy )
-        denominator = cycle_life * (DoD / 1.0) * self.BATTERY_CAPACITY
+        denominator = self.cycle_life * (DoD / 1.0) * self.BATTERY_CAPACITY
         
         health_degradation = numerator / denominator
         return health_degradation
@@ -66,7 +66,9 @@ class Schedule:
     def __init__(self ):
         self.fleets: list[Vehicle] = []
         self.stations: list[Station] = []
-        # self.HEALTH_SOC: list[float] = [20, 80]
+        
+        self.PRICE_PER_CHARGE: float = 1.0
+        self.NIGHT_PRICE_RATIO: float = 2.0
         
     def setFleets(self, _fleet: list[Vehicle] ):
         for vehicle in _fleet:
@@ -78,16 +80,11 @@ class Schedule:
     
     # E_t
     def func1_getChargeCost(self, _charge_energy: float, _time: int ):
-        PRICE_PER_CHARGE: float = 1.0
-        NIGHT_PRICE_RATIO: float = 2.0
-        
-        price = _charge_energy * PRICE_PER_CHARGE
+        price = _charge_energy * self.PRICE_PER_CHARGE
         
         if _time % 24 < 9: # NIGHT Price
-            return price * NIGHT_PRICE_RATIO
+            return price * self.NIGHT_PRICE_RATIO
         return price # DAY Price
-    
-
     
 def main():
     print("Start")
