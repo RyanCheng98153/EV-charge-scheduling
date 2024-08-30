@@ -17,23 +17,22 @@ class Vehicle:
         return self.remain_energy / self.BATTERY_CAPACITY
     
     # E_t
-    def func1_getChargeCost(self, _energy, _time: int ):
+    def func1_getChargeCost(self, _charge_energy: float, _time: int ):
         PRICE_PER_CHARGE: float = 1.0
         NIGHT_PRICE_RATIO: float = 2.0
         
-        _energy = self.remainEnergy
-        price = _energy * PRICE_PER_CHARGE
+        price = _charge_energy * PRICE_PER_CHARGE
         
         if _time % 24 < 9: # NIGHT Price
             return price * NIGHT_PRICE_RATIO
         return price # DAY Price
     
     # W_t
-    def func2_getWearCost(self, _degradation: float, _value: float):
+    def func2_getWearCost(self, _degradation: float, _value: float) -> float:
         return _degradation * _value
     
     # P_cs
-    def func3_getStationCost(self):
+    def func3_getStationCost(self) -> float:
         station_price = 1.0
         return station_price
         
@@ -44,16 +43,16 @@ class Vehicle:
         
         return dischargeEnergy
     
-    # e_vt
-    def func8_getReturnStationEnergy(self, _remain_energy, _travel_energy_cost, _distance):
+    # b_vt
+    def func8_getReturnStationEnergy(self, _distance: float) -> tuple[float, float]:
         remain_energy = self.remain_energy
         travel_energy_cost = self.func7_getTravelEnergyCost(_distance)
         return remain_energy - travel_energy_cost, travel_energy_cost
     
     # D(e_vt)
-    def func9_getDegradation(self, _remain_energy):
+    def func9_getDegradation(self, _energy_cost: float) -> float:
         HEALTH_SOC_MIN, HEALTH_SOC_MAX  = self.HEALTH_SOC
-        DEGRADATION = 0.8
+        DEGRADATION = self.func11_getHealthDegradation(_energy_cost)
         
         if HEALTH_SOC_MIN <= self.soc <= HEALTH_SOC_MAX:
             return DEGRADATION # health-charged
@@ -61,7 +60,7 @@ class Vehicle:
         return DEGRADATION * 2 # over-charged
     
     # DCH
-    def func11_getHealthDegradation(self, _remain_energy, _energy_cost):
+    def func11_getHealthDegradation(self, _energy_cost: float) -> float:
         cycle_life = 1
         DoD = _energy_cost / self.BATTERY_CAPACITY
         HEALTH_SOC_MIN, HEALTH_SOC_MAX  = self.HEALTH_SOC
