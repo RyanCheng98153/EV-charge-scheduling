@@ -13,34 +13,17 @@ class Vehicle:
         self.soc: float = 100
         self.remain_energy: float = self.BATTERY_CAPACITY
     
-    def  getSOC(self):
+    def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
-    
-    # E_t
-    def func1_getChargeCost(self, _charge_energy: float, _time: int ):
-        PRICE_PER_CHARGE: float = 1.0
-        NIGHT_PRICE_RATIO: float = 2.0
-        
-        price = _charge_energy * PRICE_PER_CHARGE
-        
-        if _time % 24 < 9: # NIGHT Price
-            return price * NIGHT_PRICE_RATIO
-        return price # DAY Price
     
     # W_t
     def func2_getWearCost(self, _degradation: float, _value: float) -> float:
         return _degradation * _value
     
-    # P_cs
-    def func3_getStationCost(self) -> float:
-        station_price = 1.0
-        return station_price
-        
     # EC_v
     def func7_getTravelEnergyCost(self, _distance: float) -> float:
         ALPHA = 0.6
         dischargeEnergy = ALPHA * self.WEIGHT * _distance
-        
         return dischargeEnergy
     
     # b_vt
@@ -56,7 +39,6 @@ class Vehicle:
         
         if HEALTH_SOC_MIN <= self.soc <= HEALTH_SOC_MAX:
             return DEGRADATION # health-charged
-        
         return DEGRADATION * 2 # over-charged
     
     # DCH
@@ -70,17 +52,42 @@ class Vehicle:
         
         health_degradation = numerator / denominator
         return health_degradation
-        
+
+class Station:
+    def __init__(self) -> None:
+        self.station_price = 10000.0
+        pass
+    
+    # P_cs
+    def func3_getStationCost(self) -> float:
+        return self.station_price
+
 class Schedule:
-    def __init__(self, _fleets: list[Vehicle] = [] ):
-        self.fleets: list[Vehicle] = _fleets
+    def __init__(self ):
+        self.fleets: list[Vehicle] = []
+        self.stations: list[Station] = []
         # self.HEALTH_SOC: list[float] = [20, 80]
         
     def setFleets(self, _fleet: list[Vehicle] ):
         for vehicle in _fleet:
             self.fleets.append(vehicle)
     
+    def setStations(self, _stations: list[Station] ):
+        for station in _stations:
+            self.stations.append(station)
     
+    # E_t
+    def func1_getChargeCost(self, _charge_energy: float, _time: int ):
+        PRICE_PER_CHARGE: float = 1.0
+        NIGHT_PRICE_RATIO: float = 2.0
+        
+        price = _charge_energy * PRICE_PER_CHARGE
+        
+        if _time % 24 < 9: # NIGHT Price
+            return price * NIGHT_PRICE_RATIO
+        return price # DAY Price
+    
+
     
 def main():
     print("Start")
