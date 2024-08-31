@@ -21,6 +21,7 @@ class Schedule:
     def func1_getChargeCost(self, _charge_energy: float, _time: int ):
         price = _charge_energy * self.PRICE_PER_CHARGE
         
-        if _time % 24 < 9: # NIGHT Price
+        # quarter hours: 96 quarters = 24 hours, 36 quarters = 9 hours
+        if _time % 96 < 36: # NIGHT Price
             return price * self.NIGHT_PRICE_RATIO
         return price # DAY Price

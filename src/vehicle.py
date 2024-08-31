@@ -1,18 +1,29 @@
+from enum import Enum
+
+class VehicleState(Enum):
+    IDLE = 0
+    TRAVEL = 1
+    HUNGRY = 2
+    CHARGING = 3
+
 class Vehicle:
-    def __init__(self, _id: int,
-                 _weight: float,
-                 _battery: float,
+    def __init__(self, 
+                 _id:       int,
+                 _weight:   float,
+                 _battery:  float,
                  ) -> None:
-        
-        self.ID: int = id
+        self.cycle_life = 1
+        self.soc: float = 100
+        self.remain_energy: float = self.BATTERY_CAPACITY
+        self.state: VehicleState.IDLE
+
+        # Constant informations
+        self.ID: int = _id
         self.WEIGHT: float = _weight
         self.BATTERY_CAPACITY: float = _battery
         self.HEALTH_SOC = [0.2, 0.8]
         self.ALPHA = 0.6
-        
-        self.cycle_life = 1
-        self.soc: float = 100
-        self.remain_energy: float = self.BATTERY_CAPACITY
+
     
     def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
