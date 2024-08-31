@@ -1,10 +1,13 @@
 from src.vehicle import Vehicle
 
 class Station:
+    PRICE_PER_CHARGE: float = None
+    NIGHT_PRICE_RATIO: float = None
+    
     def __init__(self, 
-                 _id:               int, 
-                 _station_value:    float = 10000.0, 
-                 _charge_rate_hour: float = 1.0
+                 _id:                   int, 
+                 _station_value:        float = 10000.0, 
+                 _charge_rate_per_time: float = 1.0
                  ) -> None:
         self.vehicle: Vehicle = None
         self.charge_energy: float = 0.0
@@ -16,7 +19,7 @@ class Station:
         # Constant informations
         self.ID: int = _id
         self.STATION_VALUE: float = _station_value
-        self.CHARGE_RATE_HOUR: float = _charge_rate_hour
+        self.CHARGE_RATE_PER_TIME: float = _charge_rate_per_time
         
         pass
     
@@ -25,12 +28,53 @@ class Station:
         return self.STATION_VALUE
     
     # E_t
-    def func1_getChargeCost(self, _charge_energy: float, _time: int ):
-        price = _charge_energy * self.PRICE_PER_CHARGE
+    def func1_getChargeCost(self, _charge_energy: float, _start_time: int ):
+        charge_time = _charge_energy / self.CHARGE_RATE_PER_TIME
         
-        if _time % 24 < 9: # NIGHT Price
-            return price * self.NIGHT_PRICE_RATIO
-        return price # DAY Price
+        # timeslot: 24 hours = 96 timeslot, 9 hours = 36 timeslot
+        day_time = charge_time // 96 * 60
+        night_time = charge_time // 96 * 36
+        # rest of the time: 96 time 
+        rest_time = charge_time % 96
+        
+        # start day time 
+        if _start_time >= 36: 
+            # end day time
+            if _start_time + rest_time < 96: 
+                day_time += rest_time
+            # end next night time
+            elif 96 <= _start_time + rest_time < 96 + 36: 
+                day_time += 132 - _start_time # 96 + 36 - _start_time
+                night_time += rest_time - 132
+            # end next day time
+            elif rest_time >= 96 + 36: 
+                # day_time += ( 96 - _start_time ) + ( _start_time + rest_time - 132 )
+                day_time += rest_time - 36
+                night_energy += 36
+        # start night time 
+        elif _start_time < 36: 
+            # end night time
+            if _start_time + rest_time < 36:
+                night_time += rest_time
+            # end day time
+            elif 36 <= _start_time + rest_time < 96: 
+                day_time += rest_time - 36
+                night_time += 36 - _start_time
+            # end next night time
+            elif rest_time >= 96: 
+                day_time += 60
+                # day_time += 36 - _start_time + _start_time + rest_time - 96
+                night_time += rest_time - 60
+            
+        # 1 day has 15 hours (60 timeslot) and 9 hours (36 timeslot)
+        day_energy = day_time * self.CHARGE_RATE_PER_TIME
+        night_energy = night_time * self.CHARGE_RATE_PER_TIME 
+        
+        day_energy_price = day_energy * self.PRICE_PER_CHARGE
+        night_energy_price = night_energy * self.PRICE_PER_CHARGE * self.NIGHT_PRICE_RATIO
+        
+        return day_energy_price + night_energy_price
+
 
     def chargeVehicle(self, _vehicle:Vehicle, _energy: float, _start_time: int) -> bool:
         if self.vehicle != None:
