@@ -28,33 +28,49 @@ class Vehicle:
     def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
     
-    # W_t
+    # w_vt
     def func2_getWearCost(self, _degradation: float, _value: float) -> float:
+        '''
+        w_vt = D(e_vt) * value
+        W_t = sum(w_vt) for v in vehicles 
+        '''
         return _degradation * _value
     
     # EC_v
     def func7_getTravelEnergyCost(self, _distance: float) -> float:
+        '''
+        EC_v = alpha * W_v * S_v
+        '''
         dischargeEnergy = self.ALPHA * self.WEIGHT * _distance
         return dischargeEnergy
     
     # b_vt
     def func8_getReturnStationEnergy(self, _distance: float) -> tuple[float, float]:
+        '''
+        b_vt = b_vt{previous} - EC_v
+        '''
         remain_energy = self.remain_energy
         travel_energy_cost = self.func7_getTravelEnergyCost(_distance)
         return remain_energy - travel_energy_cost, travel_energy_cost
     
     # D(e_vt)
-    def func9_getDegradation(self, _energy_cost: float) -> float:
+    def func9_getDegradation(self, _charge_energy: float) -> float:
+        '''
+        D(e_vt) = soc in range [HealthSOC] -> DCH, otherwise -> 2 * DCH
+        '''
         HEALTH_SOC_MIN, HEALTH_SOC_MAX  = self.HEALTH_SOC
-        DEGRADATION = self.func11_getHealthDegradation(_energy_cost)
+        DEGRADATION = self.func11_getHealthDegradation(_charge_energy)
         
         if HEALTH_SOC_MIN <= self.soc <= HEALTH_SOC_MAX:
             return DEGRADATION # health-charged
         return DEGRADATION * 2 # over-charged
     
     # DCH
-    def func11_getHealthDegradation(self, _energy_cost: float) -> float:
-        DoD = _energy_cost / self.BATTERY_CAPACITY
+    def func11_getHealthDegradation(self, _charge_energy: float) -> float:
+        '''
+        abs(HealthSOC_max - b_vt) / (CL * (DoD / 100%) * B)
+        '''
+        DoD = _charge_energy / self.BATTERY_CAPACITY
         HEALTH_SOC_MIN, HEALTH_SOC_MAX  = self.HEALTH_SOC
         
         numerator = abs( HEALTH_SOC_MAX - self.remain_energy )
