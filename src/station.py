@@ -1,4 +1,9 @@
 from src.vehicle import Vehicle
+from enum import Enum
+
+class StationState:
+    IDLE = 0
+    CHARGING = 1
 
 class Station:
     PRICE_PER_CHARGE: float = None
@@ -47,7 +52,7 @@ class Station:
                 day_time += 132 - _start_time # 96 + 36 - _start_time
                 night_time += rest_time - 132
             # end next day time
-            elif rest_time >= 96 + 36: 
+            elif _start_time + rest_time >= 96 + 36: 
                 # day_time += ( 96 - _start_time ) + ( _start_time + rest_time - 132 )
                 day_time += rest_time - 36
                 night_energy += 36
@@ -61,32 +66,16 @@ class Station:
                 day_time += rest_time - 36
                 night_time += 36 - _start_time
             # end next night time
-            elif rest_time >= 96: 
+            elif _start_time + rest_time >= 96: 
                 day_time += 60
                 # day_time += 36 - _start_time + _start_time + rest_time - 96
                 night_time += rest_time - 60
             
         # 1 day has 15 hours (60 timeslot) and 9 hours (36 timeslot)
-        day_energy = day_time * self.CHARGE_RATE_PER_TIME
-        night_energy = night_time * self.CHARGE_RATE_PER_TIME 
+        day_energy_cost = day_time * self.CHARGE_RATE_PER_TIME * self.PRICE_PER_CHARGE
+        night_energy_cost = night_time * self.CHARGE_RATE_PER_TIME  * self.PRICE_PER_CHARGE * self.NIGHT_PRICE_RATIO
         
-        day_energy_price = day_energy * self.PRICE_PER_CHARGE
-        night_energy_price = night_energy * self.PRICE_PER_CHARGE * self.NIGHT_PRICE_RATIO
-        
-        return day_energy_price + night_energy_price
-
-
-    def chargeVehicle(self, _vehicle:Vehicle, _energy: float, _start_time: int) -> bool:
-        if self.vehicle != None:
-            return False
-        
-        self.vehicle = _vehicle
-        self.charge_energy: float = _energy
-        
-        used_time = _energy / self.CHARGE_RATE_HOUR 
-        self.start_time = _start_time
-        self.finish_time = _start_time + used_time
-        return True
+        return day_energy_cost + night_energy_cost, charge_time
     
     def leaveStation(self):
         self.vehicle = None
