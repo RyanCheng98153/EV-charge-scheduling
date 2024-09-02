@@ -34,6 +34,8 @@ class Scheduler:
         
     def setSchedules(self, _schedule_table: list[Schedule]):
         self.schedule_table = _schedule_table
+        self.schedule_table = sorted(self.schedule_table, key=lambda schedule: schedule.END_TIME, reverse=False)
+        self.schedule_table = sorted(self.schedule_table, key=lambda schedule: schedule.START_TIME, reverse=False)
     
     def CreateActionTable(self):
         action_table = []
@@ -52,5 +54,17 @@ class Scheduler:
         print("[Action Table]")
         for action in self.action_table:
             print(f"time: {action['time']: <5} vehicle: {action['vehicle_id']: <10} distance: {action['distance']: <5}")
+        print()
+        
+    def PrintVehicles(self):
+        print("[Vehicle]")
+        for vehicle in self.vehicles:
+            vehicle.printVehicleInfo()
+        print()
+    
+    def PrintStations(self):
+        print("[Station]")
+        for station in self.stations:
+            station.printStationInfo()
         print()
         
