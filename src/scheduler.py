@@ -15,27 +15,25 @@ class Schedule:
         pass
 
 class Scheduler:
-    def __init__(self ):
-        self.fleets: list[Vehicle] = []
+    def __init__(self):
+        self.vehicles: list[Vehicle] = []
         self.stations: list[Station] = []
         
         Station.PRICE_PER_CHARGE = 1.0
         Station.NIGHT_PRICE_RATIO = 2.0
         
         self.TIMESLOTS = 672
-        self.schedule_table: list[Schedule] = [
-            Schedule(0, 100, 1,12),
-            Schedule(200, 350, 1, 20),
-        ]
+        self.schedule_table: list[Schedule] = []
         self.action_table: list[dict] = []
         
-    def setFleets(self, _fleet: list[Vehicle] ):
-        for vehicle in _fleet:
-            self.fleets.append(vehicle)
-    
+    def setVehicles(self, _vehicles: list[Vehicle] ):
+        self.vehicles = _vehicles
+        
     def setStations(self, _stations: list[Station] ):
-        for station in _stations:
-            self.stations.append(station)
+        self.stations = _stations
+        
+    def setSchedules(self, _schedule_table: list[Schedule]):
+        self.schedule_table = _schedule_table
     
     def CreateActionTable(self):
         action_table = []
@@ -45,9 +43,14 @@ class Scheduler:
         self.action_table = sorted(action_table, key=lambda action:action["time"], reverse=False)
         
     def PrintScheduleTable(self):
+        print("[Schedule Table]")
         for schedule in self.schedule_table:
-            print(f"start: {schedule.START_TIME}, end: {schedule.END_TIME}, vehicle: {schedule.VEHICLE_ID}, distance: {schedule.DISTANCE}")
-            
+            print(f"start: {schedule.START_TIME: <5} end: {schedule.END_TIME: <5} vehicle: {schedule.VEHICLE_ID: <10} distance: {schedule.DISTANCE}: 5")
+        print()
+        
     def PrintActionTable(self):
+        print("[Action Table]")
         for action in self.action_table:
-            print(f"time: {action['time']}, vehicle_id: {action['vehicle_id']}, distance: {action['distance']}")
+            print(f"time: {action['time']: <5} vehicle: {action['vehicle_id']: <10} distance: {action['distance']: <5}")
+        print()
+        
