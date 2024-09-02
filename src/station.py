@@ -1,4 +1,4 @@
-from src.vehicle import Vehicle
+from src.vehicle import Vehicle, VehicleState
 from enum import Enum
 
 class StationState:
@@ -6,26 +6,28 @@ class StationState:
     CHARGING = 1
 
 class Station:
-    PRICE_PER_CHARGE: float = None
-    NIGHT_PRICE_RATIO: float = None
+    PRICE_PER_CHARGE: float = 1.0
+    NIGHT_PRICE_RATIO: float = 2.0
     
     def __init__(self, 
                  _id:                   int, 
                  _station_value:        float = 10000.0, 
                  _charge_rate_per_time: float = 1.0
                  ) -> None:
-        self.vehicle: Vehicle = None
-        self.charge_energy: float = 0.0
-        self.charge_fee: float = 0.0
-        
-        self.start_time: int = 0.0
-        self.finish_time: int = 0.0
-        
         # Constant informations
         self.ID: int = _id
         self.STATION_VALUE: float = _station_value
         self.CHARGE_RATE_PER_TIME: float = _charge_rate_per_time
         
+        # member variables
+        self.vehicle: Vehicle = None
+        self.state = StationState.IDLE
+        
+        self.idle_time: int = 0
+        
+        self.charge_time: int = 0
+        self.charge_energy: float = 0.0
+        self.charge_cost: float = 0.0
         pass
     
     # P_cs
@@ -33,7 +35,7 @@ class Station:
         return self.STATION_VALUE
     
     # E_t
-    def func1_getChargeCost(self, _charge_energy: float, _start_time: int ):
+    def func1_getChargeCost(self, _start_time: int, _charge_energy: float) -> tuple[float, int]:
         charge_time = _charge_energy / self.CHARGE_RATE_PER_TIME
         
         # timeslot: 24 hours = 96 timeslot, 9 hours = 36 timeslot
@@ -77,12 +79,33 @@ class Station:
         
         return day_energy_cost + night_energy_cost, charge_time
     
-    def leaveStation(self):
+    def chargeVehicle(self, _vehicle: Vehicle, _start_time: int, _charge_energy: float) -> None:
+        self.vehicle = _vehicle
+        if _charge_energy + _vehicle.remain_energy > _vehicle.BATTERY_CAPACITY:
+            self.charge_energy = self.vehicle.BATTERY_CAPACITY - self.vehicle.remain_energy
+        else:
+            self.charge_energy = _charge_energy
+            
+        self.charge_cost, self.charge_time = self.func1_getChargeCost(_start_time, self.charge_energy)
+        
+        self.state = StationState.CHARGING
+        self.idle_time = _start_time + self.charge_time
+        self.vehicle.state = VehicleState.CHARGING
+        self.vehicle.idle_time = self.idle_time
+        
+        self.vehicle.chargeBattery(self.charge_energy)
+        
+        
+    def leaveStation(self) -> tuple[int, float, float]:
+        self.vehicle.state = VehicleState.IDLE
         self.vehicle = None
         
-        energy = self.charge_energy
+        charge_time = self.charge_time
+        charge_cost = self.charge_cost
+        charge_energy = self.charge_energy
+        
+        self.charge_time = 0
         self.charge_energy = 0.0
+        self.charge_cost = 0.0
         
-        # require a function to count the day and night energy
-        
-        return energy
+        return charge_time, charge_energy, charge_cost

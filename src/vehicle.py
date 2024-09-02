@@ -3,27 +3,30 @@ from enum import Enum
 class VehicleState(Enum):
     IDLE = 0
     TRAVEL = 1
-    HUNGRY = 2
-    CHARGING = 3
+    CHARGING = 2
 
 class Vehicle:
     def __init__(self, 
-                 _id:       int,
-                 _weight:   float,
-                 _battery:  float,
+                 _id:               int,
+                 _vehicle_value:    float,
+                 _weight:           float,
+                 _battery:          float,
                  ) -> None:
-        self.cycle_life = 1
-        self.soc: float = 100
-        self.remain_energy: float = self.BATTERY_CAPACITY
-        self.state: VehicleState.IDLE
-
         # Constant informations
         self.ID: int = _id
+        self.VEHICLE_VALUE:float = _vehicle_value
         self.WEIGHT: float = _weight
         self.BATTERY_CAPACITY: float = _battery
         self.HEALTH_SOC = [0.2, 0.8]
         self.ALPHA = 0.6
-
+        
+        # member variables
+        self.cycle_life = 1
+        self.soc: float = 100
+        self.remain_energy: float = _battery
+        self.state: VehicleState.IDLE
+        self.idle_time: int = 0
+        pass
     
     def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
@@ -34,6 +37,7 @@ class Vehicle:
         w_vt = D(e_vt) * value
         W_t = sum(w_vt) for v in vehicles 
         '''
+        
         return _degradation * _value
     
     # EC_v
@@ -43,6 +47,10 @@ class Vehicle:
         '''
         dischargeEnergy = self.ALPHA * self.WEIGHT * _distance
         return dischargeEnergy
+    
+    def travel(self, _distance):
+        self.state = VehicleState.TRAVEL
+        self.remain_energy -= self.func7_getTravelEnergyCost(_distance)
     
     # b_vt
     def func8_getReturnStationEnergy(self, _distance: float) -> tuple[float, float]:
@@ -78,3 +86,8 @@ class Vehicle:
         
         health_degradation = numerator / denominator
         return health_degradation
+    
+    def chargeBattery(self, _charge_energy: float):
+        self.remain_energy += _charge_energy
+        if self.remain_energy > self.BATTERY_CAPACITY:
+            self.remain_energy = self.BATTERY_CAPACITY
