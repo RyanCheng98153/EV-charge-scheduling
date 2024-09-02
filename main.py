@@ -1,10 +1,10 @@
-from src.schedule import Schedule
+from scheduler import Scheduler, Schedule
 from src.vehicle import Vehicle
     
 def main():
     print("Start")
-    schedule = Schedule()
-    schedule.setFleets([
+    scheduler = Scheduler()
+    scheduler.setVehicles([
         Vehicle( 0, 1000, 1000 ),
         Vehicle( 1, 2000, 1000 ),
         Vehicle( 2, 2000, 1000 ),
