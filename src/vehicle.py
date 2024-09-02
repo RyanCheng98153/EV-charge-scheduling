@@ -29,7 +29,7 @@ class Vehicle:
         pass
     
     def printVehicleInfo(self):
-        print(f"vehicle: {self.ID: <8} state: {self.state.name: <10} battery: {self.remain_energy} / {self.BATTERY_CAPACITY} (soc: {self.getSOC(): <4})")
+        print(f"vehicle: {self.ID: <8} state: {self.state.name: <10} battery: {self.remain_energy} / {self.BATTERY_CAPACITY} (soc: {self.soc: <4})")
     
     def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
@@ -39,14 +39,15 @@ class Vehicle:
     
     def travel(self, _distance: float):
         self.state = VehicleState.TRAVEL
-        self.remain_energy -= self.__func7_getTravelEnergyCost(_distance)
+        self.remain_energy = self.__func8_getReturnStationEnergy(_distance)
+        self.soc = self.getSOC()
     
     def chargeBattery(self, _charge_energy: float):
         self.state = VehicleState.CHARGING
         self.remain_energy += _charge_energy
         if self.remain_energy > self.BATTERY_CAPACITY:
             self.remain_energy = self.BATTERY_CAPACITY
-        
+        self.soc = self.getSOC()
         
     # w_vt
     def __func2_getWearCost(self, _degradation: float, _value: float) -> float:
@@ -69,9 +70,8 @@ class Vehicle:
         '''
         b_vt = b_vt{previous} - EC_v
         '''
-        remain_energy = self.remain_energy
-        travel_energy_cost = self.func7_getTravelEnergyCost(_distance)
-        return remain_energy - travel_energy_cost, travel_energy_cost
+        travel_energy_cost = self.__func7_getTravelEnergyCost(_distance)
+        return self.remain_energy - travel_energy_cost
     
     # D(e_vt)
     def __func9_getDegradation(self, _charge_energy: float) -> float:
