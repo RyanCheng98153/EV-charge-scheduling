@@ -45,7 +45,7 @@ class Scheduler:
     def PrintScheduleTable(self):
         print("[Schedule Table]")
         for schedule in self.schedule_table:
-            print(f"start: {schedule.START_TIME: <5} end: {schedule.END_TIME: <5} vehicle: {schedule.VEHICLE_ID: <10} distance: {schedule.DISTANCE}: 5")
+            print(f"start: {schedule.START_TIME: <5} end: {schedule.END_TIME: <5} vehicle: {schedule.VEHICLE_ID: <10} distance: {schedule.DISTANCE: <5}")
         print()
         
     def PrintActionTable(self):

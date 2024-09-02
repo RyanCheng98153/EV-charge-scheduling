@@ -1,7 +1,7 @@
 from src.vehicle import Vehicle, VehicleState
 from enum import Enum
 
-class StationState:
+class StationState(Enum):
     IDLE = 0
     CHARGING = 1
 
@@ -29,6 +29,9 @@ class Station:
         self.charge_energy: float = 0.0
         self.charge_cost: float = 0.0
         pass
+    
+    def printStationInfo(self):
+        print(f"station: {self.ID: <8} state: {self.state.name: <10} vehicle: {'None' if self.vehicle == None else self.vehicle.ID: <8} charge rate: {self.CHARGE_RATE_PER_TIME}")
     
     def chargeVehicle(self, _vehicle: Vehicle, _start_time: int, _charge_energy: float) -> None:
         self.vehicle = _vehicle
@@ -88,7 +91,7 @@ class Station:
             elif _start_time + rest_time >= 96 + 36: 
                 # day_time += ( 96 - _start_time ) + ( _start_time + rest_time - 132 )
                 day_time += rest_time - 36
-                night_energy += 36
+                night_time += 36
         # start night time 
         elif _start_time < 36: 
             # end night time
