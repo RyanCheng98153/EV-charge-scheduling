@@ -1,5 +1,6 @@
 from src.vehicle import Vehicle, VehicleState
 from enum import Enum
+from math import ceil
 
 class StationState(Enum):
     IDLE = 0
@@ -31,7 +32,7 @@ class Station:
         pass
     
     def printStationInfo(self):
-        print(f"station: {self.ID: <8} state: {self.state.name: <10} vehicle: {'None' if self.vehicle == None else self.vehicle.ID: <8} charge rate: {self.CHARGE_RATE_PER_TIME}")
+        print(f"station: {self.ID: <8} state: {self.state.name: <10} idle time: {self.idle_time:<8} vehicle: {'None' if self.vehicle == None else self.vehicle.ID: <8} charge rate: {self.CHARGE_RATE_PER_TIME}")
     
     def chargeVehicle(self, _vehicle: Vehicle, _start_time: int, _charge_energy: float) -> None:
         self.vehicle = _vehicle
@@ -39,30 +40,22 @@ class Station:
             self.charge_energy = self.vehicle.BATTERY_CAPACITY - self.vehicle.remain_energy
         else:
             self.charge_energy = _charge_energy
-            
+        
         self.charge_cost, self.charge_time = self.__func1_getChargeCost(_start_time, self.charge_energy)
         
         self.state = StationState.CHARGING
         self.idle_time = _start_time + self.charge_time
-        self.vehicle.state = VehicleState.CHARGING
-        self.vehicle.idle_time = self.idle_time
+        self.vehicle.chargeBattery(self.charge_energy, self.idle_time)
         
-        self.vehicle.chargeBattery(self.charge_energy)
-        
-        
-    def leaveStation(self) -> tuple[int, float, float]:
+    def finishCharge(self) -> tuple[int, float, float]:
+        self.state = StationState.IDLE
         self.vehicle.state = VehicleState.IDLE
+        
         self.vehicle = None
-        
-        charge_time = self.charge_time
-        charge_cost = self.charge_cost
-        charge_energy = self.charge_energy
-        
         self.charge_time = 0
         self.charge_energy = 0.0
         self.charge_cost = 0.0
-        
-        return charge_time, charge_energy, charge_cost
+        # return charge_time charge_energy charge_cost
     
     # P_cs
     def __func3_getStationValue(self) -> float:
@@ -70,7 +63,7 @@ class Station:
     
     # E_t
     def __func1_getChargeCost(self, _start_time: int, _charge_energy: float) -> tuple[float, int]:
-        charge_time = _charge_energy / self.CHARGE_RATE_PER_TIME
+        charge_time = ceil(_charge_energy / self.CHARGE_RATE_PER_TIME)
         
         # timeslot: 24 hours = 96 timeslot, 9 hours = 36 timeslot
         day_time = charge_time // 96 * 60
