@@ -12,6 +12,7 @@ class Schedule:
         self.END_TIME = _end_time
         self.VEHICLE_ID = _vehicle_id
         self.DISTANCE = _distance
+        self.finished: bool = False
         pass
 
 class Scheduler:
@@ -36,33 +37,38 @@ class Scheduler:
         self.schedule_table = _schedule_table
         self.schedule_table = sorted(self.schedule_table, key=lambda schedule: schedule.END_TIME, reverse=False)
         self.schedule_table = sorted(self.schedule_table, key=lambda schedule: schedule.START_TIME, reverse=False)
-    
-    def CreateActionTable(self):
+        
+    # def searchNextSchedule(self, _vehicle_id: str, _time):
+        
+    def createActionTable(self):
         action_table = []
         for schedule in self.schedule_table:
-            action_table.append({"time": schedule.START_TIME, "vehicle_id": schedule.VEHICLE_ID, "distance": -1})
-            action_table.append({"time": schedule.END_TIME, "vehicle_id": schedule.VEHICLE_ID, "distance": schedule.DISTANCE})
+            action_table.append({"time": schedule.START_TIME, "vehicle_id": schedule.VEHICLE_ID, "action": "leave", "distance": schedule.DISTANCE, 'end_time': schedule.END_TIME})
+            action_table.append({"time": schedule.END_TIME, "vehicle_id": schedule.VEHICLE_ID, "action": "return"})
         self.action_table = sorted(action_table, key=lambda action:action["time"], reverse=False)
         
-    def PrintScheduleTable(self):
+    def printScheduleTable(self):
         print("[Schedule Table]")
         for schedule in self.schedule_table:
-            print(f"start: {schedule.START_TIME: <5} end: {schedule.END_TIME: <5} vehicle: {schedule.VEHICLE_ID: <10} distance: {schedule.DISTANCE: <5}")
+            print(f"start: {schedule.START_TIME: <5} end: {schedule.END_TIME: <5} vehicle: {schedule.VEHICLE_ID: <10} distance: {schedule.DISTANCE: <8} finished: {str(schedule.finished): <5}")
         print()
         
-    def PrintActionTable(self):
+    def printActionTable(self):
         print("[Action Table]")
         for action in self.action_table:
-            print(f"time: {action['time']: <5} vehicle: {action['vehicle_id']: <10} distance: {action['distance']: <5}")
+            if action['action'] == 'leave':
+                print(f"time: {action['time']: <5} vehicle: {action['vehicle_id']: <10} action: {action['action']: <8} distance: {action['distance']: <5} end_time: {action['end_time']: <5}")
+            elif action['action'] == 'return':
+               print(f"time: {action['time']: <5} vehicle: {action['vehicle_id']: <10} action: {action['action']: <8}")
         print()
         
-    def PrintVehicles(self):
+    def printVehicles(self):
         print("[Vehicle]")
         for vehicle in self.vehicles:
             vehicle.printVehicleInfo()
         print()
     
-    def PrintStations(self):
+    def printStations(self):
         print("[Station]")
         for station in self.stations:
             station.printStationInfo()
