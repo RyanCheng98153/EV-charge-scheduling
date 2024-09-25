@@ -1,4 +1,5 @@
 from enum import Enum
+from src.action import Action
 
 class VehicleState(Enum):
     IDLE = 0
@@ -19,6 +20,7 @@ class Vehicle:
         self.BATTERY_CAPACITY: float = _battery
         self.HEALTH_SOC = [0.2, 0.8]
         self.ALPHA = 0.6
+        self.action_table: list[Action] = []
         
         # member variables
         self.cycle_life = 1
