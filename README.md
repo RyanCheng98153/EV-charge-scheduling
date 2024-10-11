@@ -19,9 +19,7 @@ $
 $ W_t = \sum\limits_{v=1}^{N_{EV}}\mathbb{D} (e_{vt}) \cdot V_v $
 
 7. **電動公車能耗 與車重、行駛距離之關係**
-$$ 
-EC = \sum\limits_{v=1}^{N_{EV}}\alpha \cdot W_{v} \cdot S_{v}
-$$
+$ EC = \sum\limits_{v=1}^{N_{EV}}\alpha \cdot W_{v} \cdot S_{v}$
 
 10. **電池退化率(電池健康、過充情況)**
 $\mathbb{D}(e_{vt}) = DCH,  & HCS_{min} \leq SOC_{vt} \leq HCS_{max}
@@ -29,6 +27,6 @@ $\mathbb{D}(e_{vt}) = DCH,  & HCS_{min} \leq SOC_{vt} \leq HCS_{max}
 $
 
 11. **健康電池退化率**
-$$DCH = DDH = \dfrac{e_{vt}}{CL*(DoD/100\%)*2B}$$
+$DCH = DDH = \dfrac{e_{vt}}{CL*(DoD/100\%)*2B}$
 
 
