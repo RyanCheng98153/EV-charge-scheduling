@@ -11,7 +11,7 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
 $P_1 = \min\{\ \sum\limits_{i=0}^{671}(\ E_t + W_t\ )\ \}$
 
 1. **電池充電成本(日間、夜間計費)**
-E_t=
+$$E_t=
         \sum\limits_{v=1}^{N_{ev}}e_{vt} \cdot Ratio \cdot e_{price} 
         & 9 \leq (t \mod 24) \lt 24
         \\
