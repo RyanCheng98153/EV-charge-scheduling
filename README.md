@@ -24,11 +24,9 @@ EC = \sum\limits_{v=1}^{N_{EV}}\alpha \cdot W_{v} \cdot S_{v}
 $$
 
 10. **電池退化率(電池健康、過充情況)**
-$$\mathbb{D}(e_{vt}) =
-        DCH,  & HCS_{min} \leq SOC_{vt} \leq HCS_{max}
-        \\
-        2~DCH, &  SOC_{vt} \text ~~ {otherwise}
-$$
+$\mathbb{D}(e_{vt}) = DCH,  & HCS_{min} \leq SOC_{vt} \leq HCS_{max}
+\\ 2~DCH, &  SOC_{vt} \text ~~ {otherwise}
+$
 
 11. **健康電池退化率**
 $$DCH = DDH = \dfrac{e_{vt}}{CL*(DoD/100\%)*2B}$$
