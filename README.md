@@ -11,7 +11,7 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
 $P_1 = \min\{\ \sum\limits_{i=0}^{671}(\ E_t + W_t\ )\ \}$
 
 1. **電池充電成本(日間、夜間計費)**
-$ E_t=
+$$ E_t=
 \left\{
     \begin{matrix}
         \sum\limits_{v=1}^{N_{ev}}e_{vt} \cdot Ratio \cdot e_{price} 
@@ -21,18 +21,18 @@ $ E_t=
         & otherwise
     \end{matrix}
 \right.
-$
+$$
 
 2. **電池退化成本**
-$ W_t = \sum\limits_{v=1}^{N_{EV}}\mathbb{D} (e_{vt}) \cdot V_v $
+$$ W_t = \sum\limits_{v=1}^{N_{EV}}\mathbb{D} (e_{vt}) \cdot V_v $$
 
 7. **電動公車能耗 與車重、行駛距離之關係**
-$ 
+$$ 
 EC = \sum\limits_{v=1}^{N_{EV}}\alpha \cdot W_{v} \cdot S_{v}
-$
+$$
 
 10. **電池退化率(電池健康、過充情況)**
-$\mathbb{D}(e_{vt}) =
+$$\mathbb{D}(e_{vt}) =
 \left\{
     \begin{matrix}
         DCH,  & HCS_{min} \leq SOC_{vt} \leq HCS_{max}
@@ -40,9 +40,9 @@ $\mathbb{D}(e_{vt}) =
         2~DCH, &  SOC_{vt} \text ~~ {otherwise}
     \end{matrix}
 \right.
-$
+$$
 
 11. **健康電池退化率**
-$DCH = DDH = \dfrac{e_{vt}}{CL*(DoD/100\%)*2B}$
+$$DCH = DDH = \dfrac{e_{vt}}{CL*(DoD/100\%)*2B}$$
 
 
