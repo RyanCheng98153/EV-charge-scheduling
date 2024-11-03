@@ -49,7 +49,7 @@ def main():
     # 欣興客運總充電樁數: 華德低地板公車 56 輛, 成運公車 38 輛
     # 236 客運 (華德低地板公車) => 車數 : 充電樁數 = 1 : 1 
     chargers : list[Charger] = [
-        Charger(f'華德充電樁_{i}', chargerTypes["華德雙槍充電樁"]) for i in range(0, 0)
+        Charger(f'華德充電樁_{i}', chargerTypes["華德雙槍充電樁"]) for i in range(0, 1)
     ] + [
         Charger(f'成運充電樁_{i}', chargerTypes["成運三槍充電樁"]) for i in range(0, 13)
     ]
@@ -88,6 +88,23 @@ def main():
         TravelSchedule(20, 70, '華德_4', 25),
     ])
     
+    # scheduler.setSchedules([
+    #     TravelSchedule(0, 1,    vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(2, 3,    vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(4, 5,    vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(7, 8,    vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(10, 11,  vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(12, 13,  vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(70, 110, vehicleTypes["華德低地板公車"], 10),
+    #     TravelSchedule(20, 65,  vehicleTypes["華德低地板公車"], 12),
+    #     TravelSchedule(0, 40,   vehicleTypes["華德低地板公車"], 20),
+    #     TravelSchedule(60, 75,  vehicleTypes["華德低地板公車"], 8),
+    #     TravelSchedule(90, 105, vehicleTypes["華德低地板公車"], 6),
+    #     TravelSchedule(0, 20,   vehicleTypes["華德低地板公車"], 6),
+    #     TravelSchedule(40, 80,  vehicleTypes["華德低地板公車"], 15),
+    #     TravelSchedule(20, 70,  vehicleTypes["華德低地板公車"], 25),
+    # ])
+    
     print("[ Simulate Started ... ]")
     
     # scheduler.simulate()
@@ -103,7 +120,7 @@ def main():
         print(schedule)
     
     print("[ End Successfully ... ]")   
-        
+    print("Next Step: Change Vehicle from ID to Type")    
     
 if __name__ == "__main__":
     main()
