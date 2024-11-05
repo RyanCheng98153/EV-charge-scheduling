@@ -85,6 +85,10 @@ class Vehicle:
         self.charger_id = None
         self.idle_time = _finish_time
     
+    def getTravelEnergy(self, _distance: float) -> float:
+        return self.__func7_getTravelEnergy(_distance)
+    
+    
     # EC_v
     def __func7_getTravelEnergy(self, _distance: float) -> float:
         '''

@@ -1,4 +1,20 @@
 from src.vehicle import VehicleType
+class TaskSchedule:
+    def __init__(self,
+                 _start_time: int,
+                 _end_time: int,
+                 _vehicle_type: VehicleType,
+                 _distance: float
+                 ) -> None:
+        self.START_TIME = _start_time
+        self.END_TIME = _end_time
+        self.VEHICLE_TYPE = _vehicle_type
+        self.DISTANCE = _distance
+        pass
+    def __repr__(self):
+        return f"Start: {self.START_TIME: <3} End: {self.END_TIME: <3} VehicleType: {self.VEHICLE_TYPE.name: <10} Distance: {self.DISTANCE: >3} (km)"
+        pass
+
 class TravelSchedule:
     def __init__(self,
                  _start_time: int,
@@ -12,20 +28,18 @@ class TravelSchedule:
         self.DISTANCE = _distance
         self.finished: bool = False
         pass
-
-class DepartureSchedule:
-    def __init__(self,
-                 _start_time: int,
-                 _end_time: int,
-                 _vehicle_type: VehicleType,
-                 _distance: float
+    
+    # overloading constructor by given TaskSchedule as parameter
+    @classmethod
+    def byTask(cls,
+                 _vehicle_id: str,
+                 _task: TaskSchedule
                  ) -> None:
-        self.START_TIME = _start_time
-        self.END_TIME = _end_time
-        self.VEHICLE_TYPE = _vehicle_type
-        self.DISTANCE = _distance
-        self.finished: bool = False
-        pass
+        
+        return cls(_task.START_TIME, _task.END_TIME, _vehicle_id, _task.DISTANCE)
+    
+    def __repr__(self):
+        return f"Start: {self.START_TIME: <4} End: {self.END_TIME: <4} Vehicle: {self.VEHICLE_ID: <6} Distance: {self.DISTANCE: >3} (km)"
 
 
 class RealTime:

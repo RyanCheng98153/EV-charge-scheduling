@@ -1,5 +1,5 @@
 from src.scheduler import Scheduler
-from src.schedule import TravelSchedule
+from src.schedule import TaskSchedule, TravelSchedule
 from src.vehicle import Vehicle, VehicleType
 from src.charger import Charger, ChargerType
 
@@ -49,9 +49,9 @@ def main():
     # 欣興客運總充電樁數: 華德低地板公車 56 輛, 成運公車 38 輛
     # 236 客運 (華德低地板公車) => 車數 : 充電樁數 = 1 : 1 
     chargers : list[Charger] = [
-        Charger(f'華德充電樁_{i}', chargerTypes["華德雙槍充電樁"]) for i in range(0, 1)
+        Charger(f'華德充電樁_{i}', chargerTypes["華德雙槍充電樁"]) for i in range(0, 14)
     ] + [
-        Charger(f'成運充電樁_{i}', chargerTypes["成運三槍充電樁"]) for i in range(0, 13)
+        Charger(f'成運充電樁_{i}', chargerTypes["成運三槍充電樁"]) for i in range(0, 14)
     ]
     
     scheduler.setVehicles(vehicles)
@@ -70,23 +70,39 @@ def main():
     #     Charger('c3', chargerTypes['成運三槍充電樁'], 300000, 30),
     # ])
     
-    
     scheduler.setSchedules([
-        TravelSchedule(0, 1, '華德_1', 10),
-        TravelSchedule(2, 3, '華德_1', 10),
-        TravelSchedule(4, 5, '華德_1', 10),
-        TravelSchedule(7, 8, '華德_1', 10),
-        TravelSchedule(10, 11, '華德_1', 10),
-        TravelSchedule(12, 13, '華德_1', 10),
-        TravelSchedule(70, 110, '華德_1', 10),
-        TravelSchedule(20, 65, '華德_2', 12),
-        TravelSchedule(0, 40, '華德_3', 20),
-        TravelSchedule(60, 75, '華德_3', 8),
-        TravelSchedule(90, 105, '華德_3', 6),
-        TravelSchedule(0, 20, '華德_4', 6),
-        TravelSchedule(40, 80, '華德_4', 15),
-        TravelSchedule(20, 70, '華德_4', 25),
+        TaskSchedule(0,      1,      vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(2,      3,      vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(4,      5,      vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(7,      8,      vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(10,     11,     vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(12,     13,     vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(70,     110,    vehicleTypes['華德低地板公車'], 10),
+        TaskSchedule(20,     65,     vehicleTypes['華德低地板公車'], 12),
+        TaskSchedule(0,      40,     vehicleTypes['華德低地板公車'], 20),
+        TaskSchedule(60,     75,     vehicleTypes['華德低地板公車'], 8),
+        TaskSchedule(90,     105,    vehicleTypes['華德低地板公車'], 6),
+        TaskSchedule(0,      20,     vehicleTypes['華德低地板公車'], 6),
+        TaskSchedule(40,     70,     vehicleTypes['華德低地板公車'], 15),
+        TaskSchedule(80,     90,     vehicleTypes['華德低地板公車'], 25),
     ])
+    
+    # scheduler.setSchedules([
+    #     TravelSchedule(0, 1, '華德_1', 10),
+    #     TravelSchedule(2, 3, '華德_1', 10),
+    #     TravelSchedule(4, 5, '華德_1', 10),
+    #     TravelSchedule(7, 8, '華德_1', 10),
+    #     TravelSchedule(10, 11, '華德_1', 10),
+    #     TravelSchedule(12, 13, '華德_1', 10),
+    #     TravelSchedule(70, 110, '華德_1', 10),
+    #     TravelSchedule(20, 65, '華德_2', 12),
+    #     TravelSchedule(0, 40, '華德_3', 20),
+    #     TravelSchedule(60, 75, '華德_3', 8),
+    #     TravelSchedule(90, 105, '華德_3', 6),
+    #     TravelSchedule(0, 20, '華德_4', 6),
+    #     TravelSchedule(40, 70, '華德_4', 15),
+    #     TravelSchedule(80, 90, '華德_4', 25),
+    # ])
     
     # scheduler.setSchedules([
     #     TravelSchedule(0, 1,    vehicleTypes["華德低地板公車"], 10),
@@ -111,16 +127,28 @@ def main():
     
     try :
         scheduler.simulate()
+        print("[ End Successfully ... ]")   
+        print()
+    
     except Exception as e:
         print("[ Error Occurred ... ]: ", e)
         print("[ Progress Terminate ... ]")
-        exit()
+        # exit()
     
+    
+    # print("[ === Schedule Table === ]")
+    # for schedule in scheduler.schedule_table:
+    #     print(schedule)
+    
+    print("[ === Travel Table === ]")
+    for schedule in scheduler.travel_table:
+        print(schedule)
+    
+    print("[ === Charge Table === ]")
     for schedule in scheduler.charge_table:
         print(schedule)
     
-    print("[ End Successfully ... ]")   
-    print("Next Step: Change Vehicle from ID to Type")    
+    print("TODO: Task Schedule FACTORY")    
     
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 from src.vehicle import Vehicle, VehicleState
 from src.charger import Charger, ChargerState
-from src.schedule import TravelSchedule, ChargeSchedule
+from src.schedule import TaskSchedule, TravelSchedule, ChargeSchedule
 
 
 class Scheduler():
@@ -13,14 +13,16 @@ class Scheduler():
         Charger.OFFPEAK_POWER_PRICE = _offpeak_power_price
         
         self.TIMESLOTS = 672
-        self.schedule_table: list[TravelSchedule] = []
+        # self.schedule_table: list[TravelSchedule] = []
+        self.schedule_table: list[TaskSchedule] = []
+        self.travel_table: list[TravelSchedule] = []
         self.charge_table: list[ChargeSchedule] = []
     
     def simulate(self):
         for curTime in range(0, self.TIMESLOTS-1):
             # 1. 先看車子是否結束流程 -> 退化 cost 
             
-            for schedule in self.schedule_table:
+            for schedule in self.travel_table:
                 if schedule.finished:
                     continue
                 
@@ -48,16 +50,21 @@ class Scheduler():
             # 3 先看車子是否要出發 -> 先發車 -> 斷電，如果無法完成下一班次 -> 模擬結束 
             
             for schedule in self.schedule_table:
-                if schedule.finished or schedule.START_TIME != curTime:
-                    continue
-                vehicle = self.vehicles[schedule.VEHICLE_ID]
-                
-                if vehicle.state == VehicleState.TRAVEL:
+                if schedule.START_TIME != curTime:
                     continue
                 
-                if vehicle.state == VehicleState.IDLE:
-                    vehicle.travel(schedule.DISTANCE, curTime)
-                    continue
+                available_vehicles = [
+                    vehicle for vehicle in self.vehicles.values() if vehicle.state == VehicleState.IDLE
+                ] + [
+                    vehicle for vehicle in self.vehicles.values() if vehicle.state == VehicleState.CHARGING
+                ]
+                
+                available_vehicles = [ vehicle for vehicle in available_vehicles if vehicle.remain_energy > vehicle.getTravelEnergy(schedule.DISTANCE) ]
+                
+                if len(available_vehicles) <= 0:
+                    raise ValueError(f"Time ({curTime}) no available vehicle for task: [ {schedule} ]")
+                
+                vehicle = available_vehicles[0]
                 
                 if vehicle.state == VehicleState.CHARGING:
                     charger = self.chargers[vehicle.charger_id]
@@ -69,17 +76,22 @@ class Scheduler():
                                                             charger.ID, 
                                                             charge_energy, 
                                                             charge_cost))
-                    
+                
+                self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
+                # self.travel_table.append(TravelSchedule.byTask(vehicle.ID, schedule))
                 vehicle.travel(schedule.DISTANCE, curTime)
                 
             # 4. 充電策略的時間 -> plugVehicle (Y/N) -> 更新充電狀態
             
             for vehicle in self.vehicles.values():
+                # only idle vehicle can be charged
                 if vehicle.state != VehicleState.IDLE:
                     continue
+                # vehicle.soc > vehicle.HEALTH_SOC[1] means vehicle is healthy enough, no need to charge
                 if vehicle.soc > vehicle.HEALTH_SOC[1]:
                     continue
                 for charger in self.chargers.values():
+                    # check if charger is available
                     if charger.state != ChargerState.IDLE:
                         continue
                     if not vehicle.VEHICLE_TYPE in charger.charge_type.SERVED_VEHICLES:
