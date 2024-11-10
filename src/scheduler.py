@@ -17,6 +17,9 @@ class Scheduler():
         self.schedule_table: list[TaskSchedule] = []
         self.travel_table: list[TravelSchedule] = []
         self.charge_table: list[ChargeSchedule] = []
+        
+    def getCost(self):
+        return sum([charge.COST for charge in self.charge_table])
     
     def simulate(self):
         for curTime in range(0, self.TIMESLOTS-1):
@@ -36,7 +39,8 @@ class Scheduler():
             for charger in self.chargers.values():
                 if charger.vehicle == None:
                     continue
-                if charger.vehicle.soc >= charger.vehicle.HEALTH_SOC[1]:
+                # if charger.vehicle.soc >= charger.vehicle.HEALTH_SOC[1]:
+                if charger.vehicle.soc >= 100:
                     v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
                     
                     self.charge_table.append(ChargeSchedule(startT, 
@@ -62,14 +66,14 @@ class Scheduler():
                 available_vehicles = [ vehicle for vehicle in available_vehicles if vehicle.remain_energy > vehicle.getTravelEnergy(schedule.DISTANCE) ]
                 
                 if len(available_vehicles) <= 0:
-                    raise ValueError(f"Time ({curTime}) no available vehicle for task: [ {schedule} ]")
-                
-                vehicle = available_vehicles[0]
+                    # raise ValueError(f"Time ({curTime}) no available vehicle for task: [ {schedule} ]")
+                    vehicle = max(self.vehicles.values(), key=lambda vehicle: vehicle.remain_energy)
+                else:
+                    vehicle = available_vehicles[0]
                 
                 if vehicle.state == VehicleState.CHARGING:
                     charger = self.chargers[vehicle.charger_id]
                     v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
-                    
                     self.charge_table.append(ChargeSchedule(startT, 
                                                             endT, 
                                                             v_id, 
@@ -87,9 +91,11 @@ class Scheduler():
                 # only idle vehicle can be charged
                 if vehicle.state != VehicleState.IDLE:
                     continue
+                if vehicle.soc >= 100:
+                    continue
                 # vehicle.soc > vehicle.HEALTH_SOC[1] means vehicle is healthy enough, no need to charge
                 if vehicle.soc > vehicle.HEALTH_SOC[1]:
-                    continue
+                   continue
                 for charger in self.chargers.values():
                     # check if charger is available
                     if charger.state != ChargerState.IDLE:

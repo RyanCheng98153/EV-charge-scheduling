@@ -43,15 +43,19 @@ class TravelSchedule:
 
 
 class RealTime:
-    Hour:int = 0
-    Minute:int = 0
+    HOUR_TIMESLOT:int = 4
+    MINUTE_TIMESLOT:int = 15
+    DAY_TIMESLOT:int = 24 * HOUR_TIMESLOT
     
     def __init__(self, _hour:int, _minute:int) -> None:
         self.Hour = _hour
         self.Minute = _minute
         pass
+    
+    def getTimeslot(self) -> int:
+        return self.Hour * RealTime.HOUR_TIMESLOT + self.Minute // RealTime.MINUTE_TIMESLOT
 
-class ScheduleFactory:
+class TaskFactory:
     def __init__(self):
         pass
     
@@ -61,8 +65,49 @@ class ScheduleFactory:
                  travel_time: RealTime,
                  first_run: RealTime, 
                  last_run: RealTime, 
-                 frequency: RealTime) -> TravelSchedule:
-        pass
+                 frequency: RealTime,
+                 weekdays: list[int] = [0, 1, 2, 3, 4, 5, 6],
+                 rush_hour: list[tuple[RealTime, RealTime]] = [
+                     (RealTime(0, 0), RealTime(0, 0)), 
+                    ],
+                 rush_freq: RealTime = RealTime(0, 0)
+                 ) -> TravelSchedule:
+        
+        task_list:list[TaskSchedule] = []
+        
+        for day in weekdays:
+            # Generate TaskSchedule
+            day_time    = day * RealTime.DAY_TIMESLOT
+            cur_time    = day_time + first_run.getTimeslot()
+            end_time    = day_time + last_run.getTimeslot()
+            freq_time   = day_time + frequency.getTimeslot()
+
+            duration = travel_time.getTimeslot()
+            
+            rush_time = [ (day_time + rush[0].getTimeslot(), day_time + rush[1].getTimeslot()) for rush in rush_hour ]
+            rush_freq_time = rush_freq.getTimeslot()
+            
+
+            while cur_time < end_time:
+                task_list.append(TaskSchedule(cur_time, 
+                                            cur_time + duration, 
+                                            vehicle_type, 
+                                            distance
+                                            ))
+                
+                is_rush_hour = False
+                # check if current time is in rush hour
+                for r_start, r_end in rush_time:
+                    if cur_time >= r_start and cur_time <= r_end:
+                        cur_time += rush_freq_time
+                        is_rush_hour = True
+                        break
+                
+                if not is_rush_hour:
+                    cur_time += freq_time
+                    
+                
+        return task_list
 
         
 class ChargeSchedule:

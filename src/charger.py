@@ -50,8 +50,8 @@ class Charger:
         self.charge_cost: float = 0.0
         pass
     
-    def printchargerInfo(self):
-        print(f"charger: {self.ID: <8} state: {self.state.name: <10} idle time: {self.idle_time:<8} vehicle: {'None' if self.vehicle == None else self.vehicle.ID: <8} charge rate: {self.CHARGE_RATE_PER_TIME}")
+    def __repr__(self):
+        return f"Charger: {self.ID: <8} State: {self.state.name: <10} IdleTime: {self.idle_time: <8} Vehicle: {'None' if self.vehicle == None else self.vehicle.ID: <8} ChargeRate: {self.CHARGE_RATE_PER_TIME}"
     
     def plugVehicle(self, _vehicle: Vehicle, _start_time: int) -> None:
         self.state = ChargerState.CHARGING

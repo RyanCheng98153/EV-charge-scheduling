@@ -17,7 +17,7 @@ class VehicleType():
 
 class Vehicle:
     HEALTH_SOC = [0.2, 0.8]
-    ALPHA = 0.6    
+    ALPHA = 0.6
     
     def __init__(self, 
                  _id:               str = None,
@@ -48,9 +48,9 @@ class Vehicle:
         self.idle_time: int = 0
         pass
     
-    def printVehicleInfo(self):
-        print(f"vehicle: {self.ID: <8} state: {self.state.name: <10} idle time: {self.idle_time:<8} battery: {self.remain_energy: <8} / {self.BATTERY_CAPACITY: <8} (soc: {self.soc})")
-        
+    def __repr__(self):
+        return f"Vehicle: {self.ID: <8} State: {self.state.name: <10} (soc: {self.soc:<4.2f}) IdleTime: {self.idle_time: <4} Battery: {self.remain_energy: <8} / {self.BATTERY_CAPACITY: <8} "
+    
     def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
     
