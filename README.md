@@ -5,9 +5,16 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
 ## Method
 - Heuristic Algorithm
 - Greedy-like Algorithm
-- 
 
-## simulation
+# Requirements
+- No Requirement
+
+# Usage
+```
+python main.py
+```
+
+## Simulation steps concept
 ```coffee
     def simulate(self):
         finish_action = 0
@@ -30,4 +37,54 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
                 規格：
                 - 參考欣興客運
                 - 電費: 尖峰
+```
+
+### bus 236 simulation config
+```
+[ === 模擬參數 === ]
+# Electricity: Peak Hour: 16:00 ~ 22:00, 
+# : Peak Power Price: 每度電 10.7 元,
+# : Offpeak Power Price: 每度電 2.62 元
+
+# 車種: 華德低地板公車, 成運公車
+# : 華德低地板公車: 13,000kg, 電池容量: 282,000Wh
+# : 成運公車: 16,300kg, 電池容量: 109,000Wh
+
+# 充電樁: 華德雙槍充電樁, 成運三槍充電樁
+# 華德雙槍充電樁: 價值 1,300,000 元, 
+# : 充電功率: 120,000W (120kW), 1 小時充電 120,000Wh, 
+# : 服務車種: 華德低地板公車
+# 成運三槍充電樁: 價值 1,200,000 元,
+# : 充電功率: 330,000W (330kW), 1 小時充電 330,000Wh,
+# : 服務車種: 成運公車
+
+# 欣興客運總車數: 華德低地板公車 56 輛, 成運公車 38 輛
+# 欣興客運總充電樁數: 華德車樁比 1:1, 成運車樁比 4:1
+
+[ === 本次模擬 === ]
+# Vehicle 數量:
+# 236 客運: 華德低地板公車 13 輛
+
+# Vehicle 參數:
+# : HEALTH_SOC = [0.2, 0.8] (soc: 20%~80%)
+# : ALPHA = 0.6 (行使功耗公式: Energy = ALPHA * 車重(公斤) * 行駛距離(公里))
+
+# Charger 數量:
+# 236 客運 (華德低地板公車) => 車數 : 充電樁數 = 1 : 1 => 13台車 : 13台充電樁
+
+[ === Schedule 資訊 === ]
+TaskFactory.generate(
+    vehicle_type=vehicleTypes["華德低地板公車"], 
+    distance=18, # 旅程 18 公里
+    travel_time=RealTime(1, 30 ), # 旅程 1 小時 30 分鐘
+    first_run=RealTime(5, 30), # 首班 5:30 開始
+    last_run=RealTime(23, 15), # 末班 23:15 結束
+    frequency=RealTime(0, 30), # 離峰 30 分一班
+    rush_hour=[ # 尖峰時段 7:00 ~ 9:00, 17:00 ~ 19:30
+        (RealTime(7, 0), RealTime(9, 0)), 
+        (RealTime(17, 0), RealTime(19, 30))
+    ],
+    rush_freq=RealTime(0, 15), # 尖峰 15 分一班
+    weekdays=[0], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
+)
 ```
