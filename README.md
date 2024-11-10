@@ -39,8 +39,8 @@ python main.py
                 - 電費: 尖峰
 ```
 
-### bus 236 simulation config
-```
+### bus 236 simulation info
+```coffee
 [ === 模擬參數 === ]
 # Electricity: Peak Hour: 16:00 ~ 22:00, 
 # : Peak Power Price: 每度電 10.7 元,
