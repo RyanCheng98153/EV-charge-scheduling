@@ -2,6 +2,8 @@ from src.scheduler import Scheduler
 from src.schedule import TaskSchedule, TravelSchedule, TaskFactory, RealTime
 from src.vehicle import Vehicle, VehicleType
 from src.charger import Charger, ChargerType
+from src.solver import Solver
+import sys
 
 def main():
     
@@ -78,6 +80,14 @@ def main():
             weekdays=[0], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
         ))
     
+    if len(sys.argv) > 1 and sys.argv[1] == "genetic":
+        solver = Solver(scheduler, population_size=50, generations=100, mutation_rate=0.1)
+        best_solution, best_fitness = solver.solve()
+        
+        # print(f"Best Solution: {best_solution}, Best Fitness: {best_fitness}")
+        print(f"Best Fitness: {best_fitness}")
+        
+        exit()
     
     def printSchedule():
         print("[ === Travel Table === ]")

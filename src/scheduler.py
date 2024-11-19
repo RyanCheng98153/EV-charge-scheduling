@@ -17,7 +17,16 @@ class Scheduler():
         self.schedule_table: list[TaskSchedule] = []
         self.travel_table: list[TravelSchedule] = []
         self.charge_table: list[ChargeSchedule] = []
-        
+    
+    def reset(self):
+        for vehicle in self.vehicles.values():
+            vehicle.reset()  # 重置每台車的狀態（e.g., SoC、狀態等）
+        for charger in self.chargers.values():
+            charger.reset()  # 重置充電站的狀態（e.g., 是否有車連接等）
+        self.travel_table = []
+        self.charge_table = []
+
+    
     def getCost(self):
         return sum([charge.COST for charge in self.charge_table])
     
@@ -49,7 +58,6 @@ class Scheduler():
                                                             charger.ID, 
                                                             charge_energy, 
                                                             charge_cost))
-                    break
                 
             # 3 先看車子是否要出發 -> 先發車 -> 斷電，如果無法完成下一班次 -> 模擬結束 
             
@@ -113,6 +121,60 @@ class Scheduler():
                     continue
                 self.chargers[vehicle.charger_id].charging()
     
+    def simulate_step(self, curTime: int):
+        # Step 1: 更新車輛的行程結束邏輯
+        for schedule in self.travel_table:
+            if schedule.finished:
+                continue
+            if schedule.END_TIME == curTime:
+                vehicle = self.vehicles[schedule.VEHICLE_ID]
+                vehicle.returnStation()
+                schedule.finished = True
+        
+        # Step 2: 檢查充電完成的車輛
+        for charger in self.chargers.values():
+            if charger.vehicle is None:
+                continue
+            if charger.vehicle.soc >= 100:  # 車輛充滿電
+                v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
+                self.charge_table.append(ChargeSchedule(startT, endT, v_id, charger.ID, charge_energy, charge_cost))
+        
+        # Step 3: 更新車輛發車邏輯
+        for schedule in self.schedule_table:
+            if schedule.START_TIME != curTime:
+                continue
+            available_vehicles = [
+                vehicle for vehicle in self.vehicles.values()
+                if vehicle.state == VehicleState.IDLE and vehicle.remain_energy > vehicle.getTravelEnergy(schedule.DISTANCE)
+            ]
+            if not available_vehicles:
+                raise ValueError(f"No available vehicle at time {curTime} for schedule {schedule}.")
+            vehicle = available_vehicles[0]
+            if vehicle.state == VehicleState.CHARGING:
+                charger = self.chargers[vehicle.charger_id]
+                charger.unplugVehicle(curTime)
+            vehicle.travel(schedule.DISTANCE, curTime)
+            self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
+        
+        # Step 4: 執行充電邏輯
+        for vehicle in self.vehicles.values():
+            if vehicle.state == VehicleState.IDLE and vehicle.soc < 100:
+                for charger in self.chargers.values():
+                    if charger.state == ChargerState.IDLE and vehicle.VEHICLE_TYPE in charger.charge_type.SERVED_VEHICLES:
+                        charger.plugVehicle(vehicle, curTime)
+                        break
+    
+    def plug_vehicle(self, vehicle, curTime):
+        for charger in self.chargers.values():
+            if charger.state == ChargerState.IDLE and vehicle.VEHICLE_TYPE in charger.charge_type.SERVED_VEHICLES:
+                charger.plugVehicle(vehicle, curTime)
+                break
+                
+    def unplug_vehicle(self, vehicle, curTime):
+        if vehicle.state == VehicleState.CHARGING:
+            charger = self.chargers[vehicle.charger_id]
+            charger.unplugVehicle(curTime)
+
     def setVehicles(self, _vehicles: list[Vehicle] ):
         self.vehicles = {vehicle.ID: vehicle for vehicle in _vehicles}
     

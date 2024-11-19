@@ -53,6 +53,15 @@ class Charger:
     def __repr__(self):
         return f"Charger: {self.ID: <8} State: {self.state.name: <10} IdleTime: {self.idle_time: <8} Vehicle: {'None' if self.vehicle == None else self.vehicle.ID: <8} ChargeRate: {self.CHARGE_RATE_PER_TIME}"
     
+    def reset(self):
+        self.state = ChargerState.IDLE
+        self.vehicle = None
+        self.start_time = 0
+        self.idle_time = 0
+        self.charge_time = 0
+        self.charge_energy = 0.0
+        self.charge_cost = 0.0
+    
     def plugVehicle(self, _vehicle: Vehicle, _start_time: int) -> None:
         self.state = ChargerState.CHARGING
         self.vehicle = _vehicle

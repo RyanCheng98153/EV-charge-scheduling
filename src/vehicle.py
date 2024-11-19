@@ -51,6 +51,13 @@ class Vehicle:
     def __repr__(self):
         return f"Vehicle: {self.ID: <8} State: {self.state.name: <10} (soc: {self.soc:<4.2f}) IdleTime: {self.idle_time: <4} Battery: {self.remain_energy: <8} / {self.BATTERY_CAPACITY: <8} "
     
+    def reset(self):
+        self.soc = 100
+        self.remain_energy = self.BATTERY_CAPACITY
+        self.state = VehicleState.IDLE
+        self.start_time = 0
+        self.idle_time = 0
+    
     def getSOC(self):
         return self.remain_energy / self.BATTERY_CAPACITY
     
