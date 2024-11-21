@@ -2,12 +2,13 @@ import random
 from src.scheduler import Scheduler, VehicleState
 
 class Solver:
-    def __init__(self, scheduler: Scheduler, population_size: int, generations: int, mutation_rate: float):
+    def __init__(self, scheduler: Scheduler, population_size: int, generations: int, mutation_rate: float, crossover_rate: float):
         self.scheduler = scheduler
         self.population_size = population_size
         self.generations = generations
         self.mutation_rate = mutation_rate
-        self.population = []  # 每個基因代表充電策略的編碼
+        self.crossover_rate = crossover_rate  # 新增交叉概率
+        self.population = [] # 每個基因代表充電策略的編碼
         self.best_solution = None
         self.best_fitness = float('inf')
     
@@ -53,6 +54,15 @@ class Solver:
                 best_individual = genes
         return best_individual, best_fitness
     
+    def crossover(self, parent1, parent2):
+        """單點交叉生成新個體"""
+        if random.random() > self.crossover_rate:
+            return parent1.copy(), parent2.copy()  # 不進行交叉
+        crossover_point = random.randint(1, self.scheduler.TIMESLOTS - 1)
+        child1 = parent1[:crossover_point] + parent2[crossover_point:]
+        child2 = parent2[:crossover_point] + parent1[crossover_point:]
+        return child1, child2
+    
     def mutate(self, genes):
         """隨機突變，變動某些基因（充電策略）"""
         for time in range(self.scheduler.TIMESLOTS):
@@ -66,7 +76,7 @@ class Solver:
         self.initialize_population()
         
         for generation in range(self.generations):
-            # 更新族群：突變生成新族群
+            # 更新族群：透過 交配 和 突變 生成新族群
             new_population = []
             for genes in self.population:
                 mutated_genes = self.mutate(genes.copy())
@@ -86,3 +96,44 @@ class Solver:
             print(f"Generation {generation+1}/{self.generations}: Best Fitness = {self.best_fitness}")
         
         return self.best_solution, self.best_fitness
+
+    def solveCrossover(self):
+        """執行基因演算法主流程"""
+        self.initialize_population()
+        
+        for generation in range(self.generations):
+            # 使用交叉和突變生成新族群
+            new_population = []
+            
+            while len(new_population) < self.population_size:
+                # 隨機選擇兩個個體作為雙親
+                parent1, parent2 = random.sample(self.population, 2)
+                
+                # 交叉生成兩個子代
+                child1, child2 = self.crossover(parent1, parent2)
+                
+                # 突變
+                child1 = self.mutate(child1)
+                child2 = self.mutate(child2)
+                
+                # 添加子代到新族群
+                new_population.append(child1)
+                if len(new_population) < self.population_size:
+                    new_population.append(child2)
+            
+            self.population = new_population
+            
+            # 計算當前最佳解
+            try:
+                current_best_solution, current_best_fitness = self.select_best()
+                if current_best_fitness < self.best_fitness:
+                    self.best_fitness = current_best_fitness
+                    self.best_solution = current_best_solution
+            except Exception as e:
+                print(f"Error during selection: {e}")
+                continue
+            
+            print(f"Generation {generation+1}/{self.generations}: Best Fitness = {self.best_fitness}")
+        
+        return self.best_solution, self.best_fitness
+    

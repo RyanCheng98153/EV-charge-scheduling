@@ -80,12 +80,21 @@ def main():
             weekdays=[0], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
         ))
     
-    if len(sys.argv) > 1 and sys.argv[1] == "genetic":
-        solver = Solver(scheduler, population_size=50, generations=100, mutation_rate=0.1)
-        best_solution, best_fitness = solver.solve()
+    if len(sys.argv) > 2 and sys.argv[1] == "genetic":
+        generations = int(sys.argv[2])
+        solver = Solver(scheduler, population_size=50, generations=generations, mutation_rate=0.1, crossover_rate=0.7)
+        
+        if len(sys.argv) > 3 and sys.argv[3] == "crossover":
+            best_solution, best_fitness = solver.solveCrossover()
+        else:
+            best_solution, best_fitness = solver.solve()
         
         # print(f"Best Solution: {best_solution}, Best Fitness: {best_fitness}")
         print(f"Best Fitness: {best_fitness}")
+        
+        print("[ === Best Solution === ]")
+        for t, schedule in enumerate(best_solution):
+            print(f"Time {t}: {schedule}")
         
         exit()
     
