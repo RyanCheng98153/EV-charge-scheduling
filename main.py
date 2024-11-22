@@ -89,15 +89,27 @@ def main( args: argparse.Namespace ):
         if len(sys.argv) > 3 and sys.argv[3] == "crossover":
             best_solution, best_fitness, best_result = solver.solveCrossover()
         else:
-            best_solution, best_fitness, best_result = solver.solve()
+            best_solution, best_fitness, best_results = solver.solve()
         
         # print(f"Best Solution: {best_solution}, Best Fitness: {best_fitness}")
         print(f"Best Fitness: {round(best_fitness, 4)}")
         
-        json_str = json.dumps(best_result, indent=2, ensure_ascii=False)
+        # unique dicts of best results
+        unique_dict_list = []
+        seen = set()
+
+        for d in best_results:
+            dict_str = json.dumps(d, sort_keys=True)  # Convert dict to JSON string
+            if dict_str not in seen:
+                seen.add(dict_str)
+                unique_dict_list.append(d)
+
+        unique_dict_list.sort(key=lambda x: x['TotalCost'])
+        best_results = unique_dict_list
+        
+        json_str = json.dumps(best_results, indent=2, ensure_ascii=False)
         with open(args.outfile, "w", encoding="utf-8") as f:
             f.write(json_str)
-        
         
         exit()
         

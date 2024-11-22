@@ -12,6 +12,7 @@ class Solver:
         self.best_solution = None
         self.best_fitness = float('inf')
         self.best_result = None
+        self.best_result_list: list[dict] = []
     
     def initialize_population(self):
         """初始化族群，每個個體的基因代表每個時間、每台車的充電策略"""
@@ -54,6 +55,7 @@ class Solver:
                 best_fitness = current_fitness
                 best_individual = genes
                 self.best_result = current_result
+        self.best_result_list.append(self.best_result)
         return best_individual, best_fitness
     
     def crossover(self, parent1, parent2):
@@ -97,7 +99,7 @@ class Solver:
             
             print(f"Generation {generation+1}/{self.generations}: Best Fitness = {round(self.best_fitness, 4)}")
         
-        return self.best_solution, self.best_fitness, self.best_result
+        return self.best_solution, self.best_fitness, self.best_result_list
 
     def solveCrossover(self):
         """執行基因演算法主流程"""
@@ -137,5 +139,5 @@ class Solver:
             
             print(f"Generation {generation+1}/{self.generations}: Best Fitness = {round(self.best_fitness, 4)}")
         
-        return self.best_solution, self.best_fitness, self.best_result
+        return self.best_solution, self.best_fitness, self.best_result_list
     
