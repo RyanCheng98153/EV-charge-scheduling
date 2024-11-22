@@ -216,6 +216,32 @@ class Scheduler():
         if vehicle.state == VehicleState.CHARGING:
             charger = self.chargers[vehicle.charger_id]
             charger.unplugVehicle(curTime)
+            
+    def getResult(self):
+        return {
+            "TotalCost": round(self.getCost(), 4),
+            "travel_table": [ self.format_travel(s) for s in self.travel_table ],
+            "charge_table": [ self.format_charge(s) for s in self.charge_table]
+        }
+        
+    def format_travel(self, s: TravelSchedule) -> dict:
+        return {
+            "Start":    s.START_TIME,
+            "End":      s.END_TIME,
+            "Vehicle":  s.VEHICLE_ID,
+            "Distance": s.DISTANCE
+        }
+        
+    def format_charge(self, s: ChargeSchedule) -> dict:
+        return {
+            "Start":    s.START_TIME,
+            "End":      s.END_TIME,
+            "Vehicle":  s.VEHICLE_ID,
+            "Charger":  s.CHARGER_ID,
+            "Energy":   round(s.ENERGY, 4),
+            "Cost":     round(s.COST, 4)
+        }
+
 
     def setVehicles(self, _vehicles: list[Vehicle] ):
         self.vehicles = {vehicle.ID: vehicle for vehicle in _vehicles}

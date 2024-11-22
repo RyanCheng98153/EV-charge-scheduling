@@ -11,6 +11,7 @@ class Solver:
         self.population = [] # 每個基因代表充電策略的編碼
         self.best_solution = None
         self.best_fitness = float('inf')
+        self.best_result = None
     
     def initialize_population(self):
         """初始化族群，每個個體的基因代表每個時間、每台車的充電策略"""
@@ -37,21 +38,22 @@ class Solver:
                     elif vehicle.state == VehicleState.CHARGING and not should_charge:
                         self.scheduler.unplug_vehicle(vehicle, curTime)
                 self.scheduler.simulate_step(curTime)  # 執行單步模擬
-            return self.scheduler.getCost()
+            return self.scheduler.getCost(), self.scheduler.getResult()
         except Exception as e:
             # 捕獲例外，返回當前累積的能量成本作為適應值
             # print(f"Exception during simulation: {e}")
-            return self.scheduler.getCost()
+            return self.scheduler.getCost(), self.scheduler.getResult()
     
     def select_best(self):
         """選擇族群中適應值最好的個體"""
         best_individual = None
         best_fitness = float('inf')
         for genes in self.population:
-            current_fitness = self.fitness(genes)
+            current_fitness, current_result = self.fitness(genes)
             if current_fitness < best_fitness:
                 best_fitness = current_fitness
                 best_individual = genes
+                self.best_result = current_result
         return best_individual, best_fitness
     
     def crossover(self, parent1, parent2):
@@ -74,7 +76,6 @@ class Solver:
     def solve(self):
         """執行基因演算法主流程"""
         self.initialize_population()
-        print(self.population[0][0])
         
         for generation in range(self.generations):
             # 更新族群：透過 交配 和 突變 生成新族群
@@ -94,9 +95,9 @@ class Solver:
                 print(f"Error during selection: {e}")
                 continue
             
-            print(f"Generation {generation+1}/{self.generations}: Best Fitness = {self.best_fitness}")
+            print(f"Generation {generation+1}/{self.generations}: Best Fitness = {round(self.best_fitness, 4)}")
         
-        return self.best_solution, self.best_fitness
+        return self.best_solution, self.best_fitness, self.best_result
 
     def solveCrossover(self):
         """執行基因演算法主流程"""
@@ -134,7 +135,7 @@ class Solver:
                 print(f"Error during selection: {e}")
                 continue
             
-            print(f"Generation {generation+1}/{self.generations}: Best Fitness = {self.best_fitness}")
+            print(f"Generation {generation+1}/{self.generations}: Best Fitness = {round(self.best_fitness, 4)}")
         
-        return self.best_solution, self.best_fitness
+        return self.best_solution, self.best_fitness, self.best_result
     

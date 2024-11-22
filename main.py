@@ -1,11 +1,13 @@
 from src.scheduler import Scheduler
-from src.schedule import TaskSchedule, TravelSchedule, TaskFactory, RealTime
+from src.schedule import TaskSchedule, TravelSchedule, ChargeSchedule, TaskFactory, RealTime
 from src.vehicle import Vehicle, VehicleType
 from src.charger import Charger, ChargerType
 from src.solver import Solver
+import json
 import sys
+import argparse
 
-def main():
+def main( args: argparse.Namespace ):
     
     # alpha = 0.5
     
@@ -80,61 +82,62 @@ def main():
             weekdays=[0], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
         ))
     
-    if len(sys.argv) > 2 and sys.argv[1] == "genetic":
-        generations = int(sys.argv[2])
+    if args.mode == "genetic":
+        generations = int(args.numsamples)
         solver = Solver(scheduler, population_size=50, generations=generations, mutation_rate=0.1, crossover_rate=0.7)
         
         if len(sys.argv) > 3 and sys.argv[3] == "crossover":
-            best_solution, best_fitness = solver.solveCrossover()
+            best_solution, best_fitness, best_result = solver.solveCrossover()
         else:
-            best_solution, best_fitness = solver.solve()
+            best_solution, best_fitness, best_result = solver.solve()
         
         # print(f"Best Solution: {best_solution}, Best Fitness: {best_fitness}")
-        print(f"Best Fitness: {best_fitness}")
+        print(f"Best Fitness: {round(best_fitness, 4)}")
         
-        # print("[ === Best Solution === ]")
-        # for t, schedule in enumerate(best_solution):
-        #     print(f"Time {t}: {schedule}")
+        json_str = json.dumps(best_result, indent=2, ensure_ascii=False)
+        with open(args.outfile, "w", encoding="utf-8") as f:
+            f.write(json_str)
+        
         
         exit()
-    
-    def printSchedule():
-        print("[ === Travel Table === ]")
-        for schedule in scheduler.travel_table:
-            print(schedule)
-        print()
         
-        print("[ === Charge Table === ]")
-        for schedule in scheduler.charge_table:
-            print(schedule)
-        print()
-        
-        print("[ === Vehicle Table === ]")
-        for vehicle in scheduler.vehicles.values():
-            print(vehicle)
-        print()
+    print("[ Simulate Started ... ]" + "\n")
     
-    print("[ Simulate Started ... ]")
-    print()
-    # scheduler.simulate()
-    
-    try :
+    error_message = None  
+    try:
         scheduler.simulate()
-        
-        printSchedule()
-        
-        print("[ End Successfully ... ]")   
-        print()
-    
     except Exception as e:
-        
-        printSchedule()
-        
-        print("[ Error Occurred ... ]: ", e)
-        print("[ Progress Terminate ... ]")
-        # exit()
+        error_message = e
     
-    print(f"Total Cost: {scheduler.getCost()}")
+    # console the scheduler result
+    print("[ === Travel Table === ]")
+    for schedule in scheduler.travel_table:
+        print(schedule)
+    print()
+    
+    print("[ === Charge Table === ]")
+    for schedule in scheduler.charge_table:
+        print(schedule)
+    print()
+        
+    if error_message:
+        print(f"[ Error Occurred, exit ... ]: {error_message}")
+    else:
+        print("[ End Successfully ... ]")
+        
+    print(f"Total Cost: {round(scheduler.getCost(), 4) }")
+    
+    result = scheduler.getResult()
+    
+    json_str = json.dumps(result, indent=2, ensure_ascii=False)
+    with open(args.outfile, "w", encoding="utf-8") as f:
+        f.write(json_str)
     
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    
+    parser.add_argument("-m", "--mode", choices=["simulate", "genetic"], required=False, default="simulate")
+    parser.add_argument("-n", "--numsamples", type=int, default=100, required=False)
+    parser.add_argument("-o", "--outfile", type=str, default="result.json", required=False)
+    
+    main(parser.parse_args())

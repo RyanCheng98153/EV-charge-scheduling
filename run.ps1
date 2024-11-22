@@ -11,5 +11,5 @@ python .\main.py genetic 1000 crossover > result/genetic_crossover_1000.txt
 python .\main.py genetic 10000 > result/genetic_mutation_10000.txt
 python .\main.py genetic 10000 crossover > result/genetic_crossover_10000.txt
 
-python .\main.py genetic 100000 > result/genetic_mutation_100000.txt
-python .\main.py genetic 100000 crossover > result/genetic_crossover_100000.txt
+# python .\main.py genetic 100000 > result/genetic_mutation_100000.txt
+# python .\main.py genetic 100000 crossover > result/genetic_crossover_100000.txt
