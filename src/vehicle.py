@@ -62,6 +62,9 @@ class Vehicle:
         return self.remain_energy / self.BATTERY_CAPACITY
     
     def travel(self, _distance: float, _travel_start_time: int):
+        if self.state == VehicleState.TRAVEL:
+            raise ValueError( f"Time ({_travel_start_time}) {self.ID}: Vehicle is already in travel state" )
+        
         self.state = VehicleState.TRAVEL
         self.idle_time = _travel_start_time
         

@@ -74,6 +74,7 @@ class Solver:
     def solve(self):
         """執行基因演算法主流程"""
         self.initialize_population()
+        print(self.population[0][0])
         
         for generation in range(self.generations):
             # 更新族群：透過 交配 和 突變 生成新族群

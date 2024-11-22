@@ -92,9 +92,9 @@ def main():
         # print(f"Best Solution: {best_solution}, Best Fitness: {best_fitness}")
         print(f"Best Fitness: {best_fitness}")
         
-        print("[ === Best Solution === ]")
-        for t, schedule in enumerate(best_solution):
-            print(f"Time {t}: {schedule}")
+        # print("[ === Best Solution === ]")
+        # for t, schedule in enumerate(best_solution):
+        #     print(f"Time {t}: {schedule}")
         
         exit()
     
