@@ -1,5 +1,5 @@
 from src.scheduler import Scheduler
-from src.schedule import TaskSchedule, TravelSchedule, ChargeSchedule, TaskFactory, RealTime
+from src.schedule import TaskFactory, RealTime
 from src.vehicle import Vehicle, VehicleType
 from src.charger import Charger, ChargerType
 from src.solver import Solver
@@ -87,7 +87,7 @@ def main( args: argparse.Namespace ):
         solver = Solver(scheduler, population_size=50, generations=generations, mutation_rate=0.1, crossover_rate=0.7)
         
         if len(sys.argv) > 3 and sys.argv[3] == "crossover":
-            best_solution, best_fitness, best_result = solver.solveCrossover()
+            best_solution, best_fitness, best_results = solver.solveCrossover()
         else:
             best_solution, best_fitness, best_results = solver.solve()
         

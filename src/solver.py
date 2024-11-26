@@ -39,19 +39,22 @@ class Solver:
                     elif vehicle.state == VehicleState.CHARGING and not should_charge:
                         self.scheduler.unplug_vehicle(vehicle, curTime)
                 self.scheduler.simulate_step(curTime)  # 執行單步模擬
-            return self.scheduler.getCost(), self.scheduler.getResult()
+            # 返回最終的能量成本和結果, True 表示模擬成功
+            return self.scheduler.getCost(), self.scheduler.getResult(), True
         except Exception as e:
             # 捕獲例外，返回當前累積的能量成本作為適應值
             # print(f"Exception during simulation: {e}")
-            return self.scheduler.getCost(), self.scheduler.getResult()
+            
+            # 返回當前累積的能量成本和結果, False 表示模擬失敗
+            return self.scheduler.getCost(), self.scheduler.getResult(), False
     
     def select_best(self):
         """選擇族群中適應值最好的個體"""
         best_individual = None
         best_fitness = float('inf')
         for genes in self.population:
-            current_fitness, current_result = self.fitness(genes)
-            if current_fitness < best_fitness:
+            current_fitness, current_result, is_success = self.fitness(genes)
+            if current_fitness < best_fitness and is_success:
                 best_fitness = current_fitness
                 best_individual = genes
                 self.best_result = current_result

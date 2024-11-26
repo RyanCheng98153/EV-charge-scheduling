@@ -52,12 +52,13 @@ class Scheduler():
                 if charger.vehicle.soc >= 100:
                     v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
                     
-                    self.charge_table.append(ChargeSchedule(startT, 
-                                                            endT, 
-                                                            v_id, 
-                                                            charger.ID, 
-                                                            charge_energy, 
-                                                            charge_cost))
+                    if startT != endT:
+                        self.charge_table.append(ChargeSchedule(startT, 
+                                                                endT, 
+                                                                v_id, 
+                                                                charger.ID, 
+                                                                charge_energy, 
+                                                                charge_cost))
                 
             # 3 先看車子是否要出發 -> 先發車 -> 斷電，如果無法完成下一班次 -> 模擬結束 
             
@@ -87,15 +88,17 @@ class Scheduler():
                 if vehicle.state == VehicleState.CHARGING:
                     charger = self.chargers[vehicle.charger_id]
                     v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
-                    self.charge_table.append(ChargeSchedule(startT, 
-                                                            endT, 
-                                                            v_id, 
-                                                            charger.ID, 
-                                                            charge_energy, 
-                                                            charge_cost))
+                    
+                    if startT != endT:
+                        self.charge_table.append(ChargeSchedule(startT, 
+                                                                endT, 
+                                                                v_id, 
+                                                                charger.ID, 
+                                                                charge_energy, 
+                                                                charge_cost))
                 
-                self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
                 vehicle.travel(schedule.DISTANCE, curTime)
+                self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
                 
             # 4. 充電策略的時間 -> plugVehicle (Y/N) -> 更新充電狀態
             
@@ -144,9 +147,10 @@ class Scheduler():
             # 車輛充滿電後, 斷電
             if charger.vehicle.soc >= 100:
                 v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
-                self.charge_table.append(ChargeSchedule(startT, endT, 
-                                                        v_id, charger.ID, 
-                                                        charge_energy, charge_cost))
+                if startT != endT:
+                    self.charge_table.append(ChargeSchedule(startT, endT, 
+                                                            v_id, charger.ID, 
+                                                            charge_energy, charge_cost))
         
         # Step 3: 更新車輛發車邏輯 -> 斷電, 先發車
         # : 如果無法完成下一班次 -> 模擬結束 
@@ -173,19 +177,20 @@ class Scheduler():
             if vehicle.state == VehicleState.CHARGING:
                 charger = self.chargers[vehicle.charger_id]
                 v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
-                self.charge_table.append(ChargeSchedule(startT, 
-                                                            endT, 
-                                                            v_id, 
-                                                            charger.ID, 
-                                                            charge_energy, 
-                                                            charge_cost))
+                if startT != endT:
+                    self.charge_table.append(ChargeSchedule(startT, 
+                                                                endT, 
+                                                                v_id, 
+                                                                charger.ID, 
+                                                                charge_energy, 
+                                                                charge_cost))
 
-            self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
             vehicle.travel(schedule.DISTANCE, curTime)
+            self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
             
         # Step 4: 執行充電邏輯
         for vehicle in self.vehicles.values():
-            if vehicle.state != VehicleState.IDLE and vehicle.soc >= 100:
+            if vehicle.state in {VehicleState.TRAVEL, VehicleState.CHARGING} or vehicle.soc >= 100:
                 continue
             # vehicle.soc > vehicle.HEALTH_SOC[1] means vehicle is healthy enough, no need to charge
             # if vehicle.soc > vehicle.HEALTH_SOC[1]:

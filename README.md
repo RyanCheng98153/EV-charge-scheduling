@@ -7,7 +7,13 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
 - Greedy-like Algorithm
 
 # Requirements
+### Simulation
 - No Requirement
+### Visualize
+```
+pip install plotly
+pip install pandas
+```
 
 # Usage
 ```
