@@ -11,8 +11,7 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
 - No Requirement
 ### Visualize
 ```
-pip install plotly
-pip install pandas
+pip install matplotlib
 ```
 
 # Usage
