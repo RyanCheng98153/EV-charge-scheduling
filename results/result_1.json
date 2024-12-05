@@ -1,0 +1,8243 @@
+[
+  {
+    "TotalCost": 1407336.6,
+    "travel_table": [
+      {
+        "Start": 22,
+        "End": 28,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 24,
+        "End": 30,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 26,
+        "End": 32,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 28,
+        "End": 34,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 29,
+        "End": 35,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 30,
+        "End": 36,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 31,
+        "End": 37,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 32,
+        "End": 38,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 33,
+        "End": 39,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 34,
+        "End": 40,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 35,
+        "End": 41,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 36,
+        "End": 42,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 37,
+        "End": 43,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 39,
+        "End": 45,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 41,
+        "End": 47,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 43,
+        "End": 49,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 45,
+        "End": 51,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 47,
+        "End": 53,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 49,
+        "End": 55,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 51,
+        "End": 57,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 53,
+        "End": 59,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 55,
+        "End": 61,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 57,
+        "End": 63,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 59,
+        "End": 65,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 61,
+        "End": 67,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 63,
+        "End": 69,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 65,
+        "End": 71,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 67,
+        "End": 73,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 69,
+        "End": 75,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 70,
+        "End": 76,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 71,
+        "End": 77,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 72,
+        "End": 78,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 73,
+        "End": 79,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 74,
+        "End": 80,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 75,
+        "End": 81,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 76,
+        "End": 82,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 77,
+        "End": 83,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 78,
+        "End": 84,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 79,
+        "End": 85,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 81,
+        "End": 87,
+        "Vehicle": "華德_9",
+        "Distance": 18
+      },
+      {
+        "Start": 83,
+        "End": 89,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 85,
+        "End": 91,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 87,
+        "End": 93,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 89,
+        "End": 95,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 91,
+        "End": 97,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 118,
+        "End": 124,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 120,
+        "End": 126,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 122,
+        "End": 128,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 124,
+        "End": 130,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 125,
+        "End": 131,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 126,
+        "End": 132,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 127,
+        "End": 133,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 128,
+        "End": 134,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 129,
+        "End": 135,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 130,
+        "End": 136,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 131,
+        "End": 137,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 132,
+        "End": 138,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 133,
+        "End": 139,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 135,
+        "End": 141,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 137,
+        "End": 143,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 139,
+        "End": 145,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 141,
+        "End": 147,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 143,
+        "End": 149,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 145,
+        "End": 151,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 147,
+        "End": 153,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 149,
+        "End": 155,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 151,
+        "End": 157,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 153,
+        "End": 159,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 155,
+        "End": 161,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 157,
+        "End": 163,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 159,
+        "End": 165,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 161,
+        "End": 167,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 163,
+        "End": 169,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 165,
+        "End": 171,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 166,
+        "End": 172,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 167,
+        "End": 173,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 168,
+        "End": 174,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 169,
+        "End": 175,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 170,
+        "End": 176,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 171,
+        "End": 177,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 172,
+        "End": 178,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 173,
+        "End": 179,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 174,
+        "End": 180,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 175,
+        "End": 181,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 177,
+        "End": 183,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 179,
+        "End": 185,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 181,
+        "End": 187,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 183,
+        "End": 189,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 185,
+        "End": 191,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 187,
+        "End": 193,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 214,
+        "End": 220,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 216,
+        "End": 222,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 218,
+        "End": 224,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 220,
+        "End": 226,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 221,
+        "End": 227,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 222,
+        "End": 228,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 223,
+        "End": 229,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 224,
+        "End": 230,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 225,
+        "End": 231,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 226,
+        "End": 232,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 227,
+        "End": 233,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 228,
+        "End": 234,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 229,
+        "End": 235,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 231,
+        "End": 237,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 233,
+        "End": 239,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 235,
+        "End": 241,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 237,
+        "End": 243,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 239,
+        "End": 245,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 241,
+        "End": 247,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 243,
+        "End": 249,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 245,
+        "End": 251,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 247,
+        "End": 253,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 249,
+        "End": 255,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 251,
+        "End": 257,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 253,
+        "End": 259,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 255,
+        "End": 261,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 257,
+        "End": 263,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 259,
+        "End": 265,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 261,
+        "End": 267,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 262,
+        "End": 268,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 263,
+        "End": 269,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 264,
+        "End": 270,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 265,
+        "End": 271,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 266,
+        "End": 272,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 267,
+        "End": 273,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 268,
+        "End": 274,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 269,
+        "End": 275,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 270,
+        "End": 276,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 271,
+        "End": 277,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 273,
+        "End": 279,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 275,
+        "End": 281,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 277,
+        "End": 283,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 279,
+        "End": 285,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 281,
+        "End": 287,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 283,
+        "End": 289,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 310,
+        "End": 316,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 312,
+        "End": 318,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 314,
+        "End": 320,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 316,
+        "End": 322,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 317,
+        "End": 323,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 318,
+        "End": 324,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 319,
+        "End": 325,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 320,
+        "End": 326,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 321,
+        "End": 327,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 322,
+        "End": 328,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 323,
+        "End": 329,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 324,
+        "End": 330,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 325,
+        "End": 331,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 327,
+        "End": 333,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 329,
+        "End": 335,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 331,
+        "End": 337,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 333,
+        "End": 339,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 335,
+        "End": 341,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 337,
+        "End": 343,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 339,
+        "End": 345,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 341,
+        "End": 347,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 343,
+        "End": 349,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 345,
+        "End": 351,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 347,
+        "End": 353,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 349,
+        "End": 355,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 351,
+        "End": 357,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 353,
+        "End": 359,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 355,
+        "End": 361,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 357,
+        "End": 363,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 358,
+        "End": 364,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 359,
+        "End": 365,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 360,
+        "End": 366,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 361,
+        "End": 367,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 362,
+        "End": 368,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 363,
+        "End": 369,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 364,
+        "End": 370,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 365,
+        "End": 371,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 366,
+        "End": 372,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 367,
+        "End": 373,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 369,
+        "End": 375,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 371,
+        "End": 377,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 373,
+        "End": 379,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 375,
+        "End": 381,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 377,
+        "End": 383,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 379,
+        "End": 385,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 406,
+        "End": 412,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 408,
+        "End": 414,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 410,
+        "End": 416,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 412,
+        "End": 418,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 413,
+        "End": 419,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 414,
+        "End": 420,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 415,
+        "End": 421,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 416,
+        "End": 422,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 417,
+        "End": 423,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 418,
+        "End": 424,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 419,
+        "End": 425,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 420,
+        "End": 426,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 421,
+        "End": 427,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 423,
+        "End": 429,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 425,
+        "End": 431,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 427,
+        "End": 433,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 429,
+        "End": 435,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 431,
+        "End": 437,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 433,
+        "End": 439,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 435,
+        "End": 441,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 437,
+        "End": 443,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 439,
+        "End": 445,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 441,
+        "End": 447,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 443,
+        "End": 449,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 445,
+        "End": 451,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 447,
+        "End": 453,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 449,
+        "End": 455,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 451,
+        "End": 457,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 453,
+        "End": 459,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 454,
+        "End": 460,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 455,
+        "End": 461,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 456,
+        "End": 462,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 457,
+        "End": 463,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 458,
+        "End": 464,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 459,
+        "End": 465,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 460,
+        "End": 466,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 461,
+        "End": 467,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 462,
+        "End": 468,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 463,
+        "End": 469,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 465,
+        "End": 471,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 467,
+        "End": 473,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 469,
+        "End": 475,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 471,
+        "End": 477,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 473,
+        "End": 479,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 475,
+        "End": 481,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 502,
+        "End": 508,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 504,
+        "End": 510,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 506,
+        "End": 512,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 508,
+        "End": 514,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 509,
+        "End": 515,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 510,
+        "End": 516,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 511,
+        "End": 517,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 512,
+        "End": 518,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 513,
+        "End": 519,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 514,
+        "End": 520,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 515,
+        "End": 521,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 516,
+        "End": 522,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 517,
+        "End": 523,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 519,
+        "End": 525,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 521,
+        "End": 527,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 523,
+        "End": 529,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 525,
+        "End": 531,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 527,
+        "End": 533,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 529,
+        "End": 535,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 531,
+        "End": 537,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 533,
+        "End": 539,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 535,
+        "End": 541,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 537,
+        "End": 543,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 539,
+        "End": 545,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 541,
+        "End": 547,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 543,
+        "End": 549,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 545,
+        "End": 551,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 547,
+        "End": 553,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 549,
+        "End": 555,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 550,
+        "End": 556,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 551,
+        "End": 557,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 552,
+        "End": 558,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 553,
+        "End": 559,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 554,
+        "End": 560,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 555,
+        "End": 561,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 556,
+        "End": 562,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 557,
+        "End": 563,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 558,
+        "End": 564,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 559,
+        "End": 565,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 561,
+        "End": 567,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 563,
+        "End": 569,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 565,
+        "End": 571,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 567,
+        "End": 573,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 569,
+        "End": 575,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 571,
+        "End": 577,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 598,
+        "End": 604,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 600,
+        "End": 606,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 602,
+        "End": 608,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 604,
+        "End": 610,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 605,
+        "End": 611,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 606,
+        "End": 612,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 607,
+        "End": 613,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 608,
+        "End": 614,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 609,
+        "End": 615,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 610,
+        "End": 616,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 611,
+        "End": 617,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 612,
+        "End": 618,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 613,
+        "End": 619,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 615,
+        "End": 621,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 617,
+        "End": 623,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 619,
+        "End": 625,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 621,
+        "End": 627,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 623,
+        "End": 629,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 625,
+        "End": 631,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 627,
+        "End": 633,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 629,
+        "End": 635,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 631,
+        "End": 637,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 633,
+        "End": 639,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 635,
+        "End": 641,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 637,
+        "End": 643,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 639,
+        "End": 645,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 641,
+        "End": 647,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 643,
+        "End": 649,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 645,
+        "End": 651,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 646,
+        "End": 652,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 647,
+        "End": 653,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 648,
+        "End": 654,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 649,
+        "End": 655,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 650,
+        "End": 656,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 651,
+        "End": 657,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 652,
+        "End": 658,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 653,
+        "End": 659,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 654,
+        "End": 660,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 655,
+        "End": 661,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 657,
+        "End": 663,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 659,
+        "End": 665,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 661,
+        "End": 667,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 663,
+        "End": 669,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 665,
+        "End": 671,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 667,
+        "End": 673,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      }
+    ],
+    "charge_table": [
+      {
+        "Start": 34,
+        "End": 36,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 36,
+        "End": 37,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 36,
+        "End": 38,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 38,
+        "End": 39,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 37,
+        "End": 39,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 38,
+        "End": 40,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 40,
+        "End": 41,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 39,
+        "End": 41,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 40,
+        "End": 41,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 39,
+        "End": 42,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 41,
+        "End": 42,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 41,
+        "End": 42,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 42,
+        "End": 43,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 42,
+        "End": 43,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 41,
+        "End": 43,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 43,
+        "End": 44,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 43,
+        "End": 44,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 42,
+        "End": 44,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 42,
+        "End": 45,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 44,
+        "End": 45,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 44,
+        "End": 45,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 44,
+        "End": 45,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 45,
+        "End": 46,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 43,
+        "End": 46,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 45,
+        "End": 46,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 46,
+        "End": 47,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 46,
+        "End": 47,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 46,
+        "End": 47,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 47,
+        "End": 48,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 45,
+        "End": 48,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 48,
+        "End": 49,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 48,
+        "End": 49,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 47,
+        "End": 49,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 47,
+        "End": 50,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 49,
+        "End": 50,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 49,
+        "End": 51,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 49,
+        "End": 51,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 50,
+        "End": 51,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 51,
+        "End": 52,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 51,
+        "End": 53,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 51,
+        "End": 53,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 50,
+        "End": 53,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 52,
+        "End": 53,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 53,
+        "End": 54,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 53,
+        "End": 54,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 54,
+        "End": 55,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 53,
+        "End": 55,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 55,
+        "End": 56,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 54,
+        "End": 56,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 56,
+        "End": 57,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 56,
+        "End": 57,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 57,
+        "End": 58,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 57,
+        "End": 60,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 59,
+        "End": 60,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 60,
+        "End": 61,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 60,
+        "End": 61,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 61,
+        "End": 62,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 62,
+        "End": 63,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 61,
+        "End": 65,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 556.8
+      },
+      {
+        "Start": 63,
+        "End": 65,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 399.6
+      },
+      {
+        "Start": 63,
+        "End": 65,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 399.6
+      },
+      {
+        "Start": 65,
+        "End": 66,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 65,
+        "End": 66,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 65,
+        "End": 66,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 66,
+        "End": 67,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 66,
+        "End": 68,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 67,
+        "End": 69,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 67,
+        "End": 69,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 68,
+        "End": 69,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 69,
+        "End": 70,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 66,
+        "End": 70,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 120000.0,
+        "Cost": 1284.0
+      },
+      {
+        "Start": 69,
+        "End": 71,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 69,
+        "End": 71,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 71,
+        "End": 74,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 963.0
+      },
+      {
+        "Start": 71,
+        "End": 76,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 150000.0,
+        "Cost": 1605.0
+      },
+      {
+        "Start": 76,
+        "End": 77,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 77,
+        "End": 78,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 77,
+        "End": 80,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 963.0
+      },
+      {
+        "Start": 78,
+        "End": 81,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 963.0
+      },
+      {
+        "Start": 79,
+        "End": 81,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 80,
+        "End": 82,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 80,
+        "End": 82,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 81,
+        "End": 82,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 82,
+        "End": 83,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 82,
+        "End": 83,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 81,
+        "End": 84,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 963.0
+      },
+      {
+        "Start": 83,
+        "End": 84,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 81,
+        "End": 84,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 963.0
+      },
+      {
+        "Start": 83,
+        "End": 84,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 84,
+        "End": 85,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 84,
+        "End": 85,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 82,
+        "End": 85,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_4",
+        "Energy": 90000.0,
+        "Cost": 963.0
+      },
+      {
+        "Start": 84,
+        "End": 85,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_6",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 84,
+        "End": 86,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 85,
+        "End": 86,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 86,
+        "End": 87,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 82,
+        "End": 87,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_5",
+        "Energy": 150000.0,
+        "Cost": 1605.0
+      },
+      {
+        "Start": 85,
+        "End": 87,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 86,
+        "End": 87,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 87,
+        "End": 88,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 87,
+        "End": 88,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 87,
+        "End": 88,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 85,
+        "End": 89,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 1041.6
+      },
+      {
+        "Start": 88,
+        "End": 89,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 87,
+        "End": 89,
+        "Vehicle": "華德_9",
+        "Charger": "華德充電樁_5",
+        "Energy": 60000.0,
+        "Cost": 399.6
+      },
+      {
+        "Start": 88,
+        "End": 89,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 89,
+        "End": 90,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 84,
+        "End": 91,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 210000.0,
+        "Cost": 1519.8
+      },
+      {
+        "Start": 89,
+        "End": 91,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 91,
+        "End": 92,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 89,
+        "End": 92,
+        "Vehicle": "華德_9",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 92,
+        "End": 93,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 93,
+        "End": 94,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 93,
+        "End": 95,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 91,
+        "End": 96,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 96,
+        "End": 97,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 95,
+        "End": 98,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 95,
+        "End": 98,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 97,
+        "End": 99,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 98,
+        "End": 99,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 99,
+        "End": 100,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 100,
+        "End": 101,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 97,
+        "End": 102,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_3",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 101,
+        "End": 104,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 104,
+        "End": 105,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 130,
+        "End": 131,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 131,
+        "End": 133,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 132,
+        "End": 133,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 133,
+        "End": 134,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 133,
+        "End": 134,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 134,
+        "End": 135,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 134,
+        "End": 135,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 135,
+        "End": 136,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 135,
+        "End": 136,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 134,
+        "End": 137,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 136,
+        "End": 138,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 136,
+        "End": 138,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 138,
+        "End": 139,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 138,
+        "End": 139,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 136,
+        "End": 140,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 139,
+        "End": 140,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 138,
+        "End": 140,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 140,
+        "End": 141,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 137,
+        "End": 141,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 140,
+        "End": 141,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 140,
+        "End": 141,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 141,
+        "End": 142,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 141,
+        "End": 143,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 142,
+        "End": 143,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 141,
+        "End": 143,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 139,
+        "End": 143,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 143,
+        "End": 144,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 144,
+        "End": 145,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 143,
+        "End": 146,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 145,
+        "End": 147,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 145,
+        "End": 147,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 147,
+        "End": 148,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 147,
+        "End": 148,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 146,
+        "End": 148,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 143,
+        "End": 148,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 148,
+        "End": 149,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 148,
+        "End": 149,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 148,
+        "End": 150,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 149,
+        "End": 150,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 148,
+        "End": 151,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 150,
+        "End": 152,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 149,
+        "End": 152,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 150,
+        "End": 152,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 152,
+        "End": 153,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 152,
+        "End": 153,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 152,
+        "End": 154,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 151,
+        "End": 154,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 153,
+        "End": 155,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 153,
+        "End": 155,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 155,
+        "End": 156,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 154,
+        "End": 156,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 155,
+        "End": 157,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 156,
+        "End": 158,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 154,
+        "End": 158,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 157,
+        "End": 158,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 158,
+        "End": 160,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 158,
+        "End": 161,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 478.2
+      },
+      {
+        "Start": 160,
+        "End": 162,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 161,
+        "End": 163,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 884.4
+      },
+      {
+        "Start": 163,
+        "End": 164,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 1048.2
+      },
+      {
+        "Start": 164,
+        "End": 165,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 1290.6
+      },
+      {
+        "Start": 165,
+        "End": 166,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 1533.0
+      },
+      {
+        "Start": 166,
+        "End": 168,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 2096.4
+      },
+      {
+        "Start": 168,
+        "End": 170,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 2581.2
+      },
+      {
+        "Start": 169,
+        "End": 170,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 2502.6
+      },
+      {
+        "Start": 165,
+        "End": 171,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 180000.0,
+        "Cost": 3138.0
+      },
+      {
+        "Start": 172,
+        "End": 173,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3229.8
+      },
+      {
+        "Start": 170,
+        "End": 174,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 3708.0
+      },
+      {
+        "Start": 173,
+        "End": 175,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 3793.2
+      },
+      {
+        "Start": 174,
+        "End": 175,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 3714.6
+      },
+      {
+        "Start": 175,
+        "End": 176,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 3957.0
+      },
+      {
+        "Start": 176,
+        "End": 177,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4199.4
+      },
+      {
+        "Start": 176,
+        "End": 178,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 4520.4
+      },
+      {
+        "Start": 177,
+        "End": 178,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 175,
+        "End": 178,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 4599.0
+      },
+      {
+        "Start": 177,
+        "End": 179,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 4762.8
+      },
+      {
+        "Start": 178,
+        "End": 179,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 178,
+        "End": 179,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 179,
+        "End": 180,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 179,
+        "End": 180,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 178,
+        "End": 181,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 5326.2
+      },
+      {
+        "Start": 180,
+        "End": 181,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 180,
+        "End": 181,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_5",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 181,
+        "End": 182,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5411.4
+      },
+      {
+        "Start": 180,
+        "End": 182,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5490.0
+      },
+      {
+        "Start": 178,
+        "End": 182,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 120000.0,
+        "Cost": 5647.2
+      },
+      {
+        "Start": 181,
+        "End": 183,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_5",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 182,
+        "End": 183,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5653.8
+      },
+      {
+        "Start": 182,
+        "End": 184,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 181,
+        "End": 184,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 184,
+        "End": 185,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 179,
+        "End": 185,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_4",
+        "Energy": 180000.0,
+        "Cost": 6289.2
+      },
+      {
+        "Start": 184,
+        "End": 186,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 185,
+        "End": 186,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 183,
+        "End": 186,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_5",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 182,
+        "End": 187,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 150000.0,
+        "Cost": 6210.6
+      },
+      {
+        "Start": 186,
+        "End": 187,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 186,
+        "End": 187,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 187,
+        "End": 188,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 185,
+        "End": 188,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 183,
+        "End": 188,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 150000.0,
+        "Cost": 6210.6
+      },
+      {
+        "Start": 187,
+        "End": 188,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_5",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 187,
+        "End": 189,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 188,
+        "End": 189,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 187,
+        "End": 189,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 189,
+        "End": 190,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 189,
+        "End": 191,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 191,
+        "End": 192,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 189,
+        "End": 192,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 192,
+        "End": 193,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 189,
+        "End": 194,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 193,
+        "End": 194,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 193,
+        "End": 195,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 195,
+        "End": 197,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 192,
+        "End": 197,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 197,
+        "End": 198,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 197,
+        "End": 198,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 226,
+        "End": 229,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 228,
+        "End": 231,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 230,
+        "End": 231,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 231,
+        "End": 232,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 229,
+        "End": 233,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 232,
+        "End": 233,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 232,
+        "End": 233,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 233,
+        "End": 234,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 233,
+        "End": 234,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 234,
+        "End": 235,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 231,
+        "End": 235,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 234,
+        "End": 235,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 235,
+        "End": 236,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 233,
+        "End": 236,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 235,
+        "End": 236,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 236,
+        "End": 237,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 236,
+        "End": 237,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 235,
+        "End": 237,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 234,
+        "End": 237,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 236,
+        "End": 239,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 237,
+        "End": 239,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 237,
+        "End": 239,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 237,
+        "End": 240,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 239,
+        "End": 242,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 240,
+        "End": 242,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 239,
+        "End": 242,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 242,
+        "End": 243,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 242,
+        "End": 243,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 241,
+        "End": 244,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 243,
+        "End": 244,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 242,
+        "End": 244,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 243,
+        "End": 245,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 244,
+        "End": 245,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 245,
+        "End": 246,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 244,
+        "End": 247,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 245,
+        "End": 247,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 244,
+        "End": 247,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 247,
+        "End": 248,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 247,
+        "End": 248,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 246,
+        "End": 249,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 248,
+        "End": 249,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 248,
+        "End": 249,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 249,
+        "End": 250,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 249,
+        "End": 251,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 251,
+        "End": 252,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 249,
+        "End": 254,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 250,
+        "End": 254,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 254,
+        "End": 255,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 253,
+        "End": 255,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 255,
+        "End": 256,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 256,
+        "End": 257,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 255,
+        "End": 258,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 720.6
+      },
+      {
+        "Start": 257,
+        "End": 258,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 563.4
+      },
+      {
+        "Start": 258,
+        "End": 259,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 805.8
+      },
+      {
+        "Start": 258,
+        "End": 259,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 805.8
+      },
+      {
+        "Start": 259,
+        "End": 261,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 1369.2
+      },
+      {
+        "Start": 261,
+        "End": 262,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 1533.0
+      },
+      {
+        "Start": 259,
+        "End": 262,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 1690.2
+      },
+      {
+        "Start": 262,
+        "End": 263,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 1775.4
+      },
+      {
+        "Start": 261,
+        "End": 264,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 2175.0
+      },
+      {
+        "Start": 263,
+        "End": 265,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 2338.8
+      },
+      {
+        "Start": 265,
+        "End": 267,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 2823.6
+      },
+      {
+        "Start": 268,
+        "End": 269,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3229.8
+      },
+      {
+        "Start": 267,
+        "End": 270,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 3629.4
+      },
+      {
+        "Start": 269,
+        "End": 270,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3472.2
+      },
+      {
+        "Start": 270,
+        "End": 271,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 3714.6
+      },
+      {
+        "Start": 269,
+        "End": 271,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 3793.2
+      },
+      {
+        "Start": 271,
+        "End": 273,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 4278.0
+      },
+      {
+        "Start": 270,
+        "End": 273,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 4356.6
+      },
+      {
+        "Start": 271,
+        "End": 274,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 4599.0
+      },
+      {
+        "Start": 273,
+        "End": 274,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 272,
+        "End": 274,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 4520.4
+      },
+      {
+        "Start": 274,
+        "End": 275,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 274,
+        "End": 275,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 274,
+        "End": 276,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5005.2
+      },
+      {
+        "Start": 274,
+        "End": 276,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5005.2
+      },
+      {
+        "Start": 273,
+        "End": 276,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 5083.8
+      },
+      {
+        "Start": 275,
+        "End": 276,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 276,
+        "End": 277,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 276,
+        "End": 277,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 276,
+        "End": 277,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 275,
+        "End": 277,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 5247.6
+      },
+      {
+        "Start": 276,
+        "End": 278,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5490.0
+      },
+      {
+        "Start": 276,
+        "End": 278,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_5",
+        "Energy": 60000.0,
+        "Cost": 5490.0
+      },
+      {
+        "Start": 277,
+        "End": 279,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 278,
+        "End": 279,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_5",
+        "Energy": 30000.0,
+        "Cost": 5653.8
+      },
+      {
+        "Start": 278,
+        "End": 279,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5653.8
+      },
+      {
+        "Start": 277,
+        "End": 279,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 279,
+        "End": 280,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 279,
+        "End": 280,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 277,
+        "End": 281,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 280,
+        "End": 281,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 277,
+        "End": 281,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 279,
+        "End": 282,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 282,
+        "End": 283,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 281,
+        "End": 283,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 281,
+        "End": 284,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 283,
+        "End": 285,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 281,
+        "End": 285,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 284,
+        "End": 285,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 285,
+        "End": 286,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 285,
+        "End": 286,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 285,
+        "End": 286,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 283,
+        "End": 286,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 286,
+        "End": 287,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 285,
+        "End": 287,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 286,
+        "End": 287,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 287,
+        "End": 288,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 287,
+        "End": 288,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 287,
+        "End": 288,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 287,
+        "End": 288,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 286,
+        "End": 288,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 288,
+        "End": 289,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 288,
+        "End": 290,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 289,
+        "End": 290,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 288,
+        "End": 290,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 290,
+        "End": 291,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 290,
+        "End": 291,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 291,
+        "End": 292,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 292,
+        "End": 293,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 289,
+        "End": 294,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 322,
+        "End": 323,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 323,
+        "End": 325,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 324,
+        "End": 325,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 325,
+        "End": 326,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 325,
+        "End": 326,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 326,
+        "End": 327,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 326,
+        "End": 328,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 326,
+        "End": 328,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 328,
+        "End": 330,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 329,
+        "End": 330,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 327,
+        "End": 331,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 328,
+        "End": 332,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 330,
+        "End": 332,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 330,
+        "End": 332,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 331,
+        "End": 332,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 330,
+        "End": 332,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_5",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 332,
+        "End": 333,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 332,
+        "End": 333,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 328,
+        "End": 333,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 332,
+        "End": 334,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 333,
+        "End": 334,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 333,
+        "End": 334,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 334,
+        "End": 335,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 332,
+        "End": 335,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 334,
+        "End": 335,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 333,
+        "End": 335,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 334,
+        "End": 335,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 335,
+        "End": 336,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 335,
+        "End": 336,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 335,
+        "End": 336,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 336,
+        "End": 337,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 337,
+        "End": 338,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 336,
+        "End": 338,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 335,
+        "End": 338,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 338,
+        "End": 339,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 338,
+        "End": 339,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 336,
+        "End": 339,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 339,
+        "End": 340,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 339,
+        "End": 340,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 339,
+        "End": 340,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 340,
+        "End": 341,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 340,
+        "End": 341,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 341,
+        "End": 342,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 338,
+        "End": 343,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 342,
+        "End": 345,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 343,
+        "End": 346,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 345,
+        "End": 347,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 347,
+        "End": 348,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 346,
+        "End": 348,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 348,
+        "End": 349,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 348,
+        "End": 350,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 347,
+        "End": 351,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 350,
+        "End": 351,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 349,
+        "End": 351,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 351,
+        "End": 352,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 352,
+        "End": 353,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 351,
+        "End": 354,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 720.6
+      },
+      {
+        "Start": 354,
+        "End": 355,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 805.8
+      },
+      {
+        "Start": 353,
+        "End": 355,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 884.4
+      },
+      {
+        "Start": 351,
+        "End": 355,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 1041.6
+      },
+      {
+        "Start": 355,
+        "End": 356,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 1048.2
+      },
+      {
+        "Start": 355,
+        "End": 357,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 1369.2
+      },
+      {
+        "Start": 355,
+        "End": 358,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 1690.2
+      },
+      {
+        "Start": 356,
+        "End": 359,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 1932.6
+      },
+      {
+        "Start": 359,
+        "End": 360,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 2017.8
+      },
+      {
+        "Start": 357,
+        "End": 361,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 2496.0
+      },
+      {
+        "Start": 361,
+        "End": 362,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 2502.6
+      },
+      {
+        "Start": 365,
+        "End": 367,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 3793.2
+      },
+      {
+        "Start": 367,
+        "End": 368,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 3957.0
+      },
+      {
+        "Start": 366,
+        "End": 368,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 4035.6
+      },
+      {
+        "Start": 368,
+        "End": 369,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 4199.4
+      },
+      {
+        "Start": 368,
+        "End": 369,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4199.4
+      },
+      {
+        "Start": 369,
+        "End": 370,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 370,
+        "End": 371,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 369,
+        "End": 371,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 4762.8
+      },
+      {
+        "Start": 371,
+        "End": 372,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 368,
+        "End": 372,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 5162.4
+      },
+      {
+        "Start": 371,
+        "End": 372,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 369,
+        "End": 372,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 5083.8
+      },
+      {
+        "Start": 372,
+        "End": 373,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 372,
+        "End": 374,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5490.0
+      },
+      {
+        "Start": 372,
+        "End": 374,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_5",
+        "Energy": 60000.0,
+        "Cost": 5490.0
+      },
+      {
+        "Start": 372,
+        "End": 375,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 5811.0
+      },
+      {
+        "Start": 374,
+        "End": 375,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5653.8
+      },
+      {
+        "Start": 373,
+        "End": 375,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 372,
+        "End": 375,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 5811.0
+      },
+      {
+        "Start": 375,
+        "End": 376,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 375,
+        "End": 377,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 374,
+        "End": 377,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_5",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 375,
+        "End": 378,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 370,
+        "End": 378,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_4",
+        "Energy": 240000.0,
+        "Cost": 6446.4
+      },
+      {
+        "Start": 377,
+        "End": 378,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 377,
+        "End": 378,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 378,
+        "End": 379,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 375,
+        "End": 379,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 379,
+        "End": 380,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 379,
+        "End": 380,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 378,
+        "End": 380,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 378,
+        "End": 380,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 381,
+        "End": 382,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 380,
+        "End": 382,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 380,
+        "End": 382,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 382,
+        "End": 383,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 383,
+        "End": 384,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 383,
+        "End": 384,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 378,
+        "End": 384,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 180000.0,
+        "Cost": 471.6
+      },
+      {
+        "Start": 382,
+        "End": 385,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 384,
+        "End": 385,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 384,
+        "End": 385,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 385,
+        "End": 386,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 385,
+        "End": 386,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 385,
+        "End": 387,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 384,
+        "End": 387,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 386,
+        "End": 387,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 385,
+        "End": 387,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 387,
+        "End": 388,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 386,
+        "End": 388,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 387,
+        "End": 388,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 388,
+        "End": 390,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 418,
+        "End": 420,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 420,
+        "End": 421,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 420,
+        "End": 421,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 421,
+        "End": 423,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 421,
+        "End": 424,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 423,
+        "End": 425,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 424,
+        "End": 425,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 424,
+        "End": 426,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 422,
+        "End": 426,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 425,
+        "End": 426,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 425,
+        "End": 426,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 426,
+        "End": 427,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 426,
+        "End": 427,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 426,
+        "End": 428,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 427,
+        "End": 428,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 427,
+        "End": 428,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 426,
+        "End": 428,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 428,
+        "End": 429,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 426,
+        "End": 429,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 428,
+        "End": 430,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 428,
+        "End": 430,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 430,
+        "End": 431,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 429,
+        "End": 431,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 430,
+        "End": 432,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 429,
+        "End": 432,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 428,
+        "End": 432,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 432,
+        "End": 433,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 433,
+        "End": 434,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 433,
+        "End": 434,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 434,
+        "End": 435,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 431,
+        "End": 435,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 434,
+        "End": 435,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 435,
+        "End": 436,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 435,
+        "End": 437,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 435,
+        "End": 438,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 437,
+        "End": 438,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 432,
+        "End": 438,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 180000.0,
+        "Cost": 471.6
+      },
+      {
+        "Start": 436,
+        "End": 438,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 438,
+        "End": 439,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 438,
+        "End": 439,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 438,
+        "End": 440,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 439,
+        "End": 442,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 438,
+        "End": 442,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 442,
+        "End": 443,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 442,
+        "End": 444,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 443,
+        "End": 444,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 444,
+        "End": 445,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 441,
+        "End": 446,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_2",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 445,
+        "End": 446,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 446,
+        "End": 448,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 446,
+        "End": 448,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 445,
+        "End": 449,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 556.8
+      },
+      {
+        "Start": 448,
+        "End": 449,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 321.0
+      },
+      {
+        "Start": 449,
+        "End": 451,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 884.4
+      },
+      {
+        "Start": 449,
+        "End": 452,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 1205.4
+      },
+      {
+        "Start": 453,
+        "End": 455,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 1854.0
+      },
+      {
+        "Start": 451,
+        "End": 456,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 150000.0,
+        "Cost": 2332.2
+      },
+      {
+        "Start": 452,
+        "End": 456,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 2253.6
+      },
+      {
+        "Start": 455,
+        "End": 457,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 2338.8
+      },
+      {
+        "Start": 461,
+        "End": 462,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3472.2
+      },
+      {
+        "Start": 462,
+        "End": 463,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3714.6
+      },
+      {
+        "Start": 457,
+        "End": 463,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_0",
+        "Energy": 180000.0,
+        "Cost": 4107.6
+      },
+      {
+        "Start": 463,
+        "End": 464,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 3957.0
+      },
+      {
+        "Start": 463,
+        "End": 464,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3957.0
+      },
+      {
+        "Start": 464,
+        "End": 465,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 4199.4
+      },
+      {
+        "Start": 464,
+        "End": 466,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 4520.4
+      },
+      {
+        "Start": 465,
+        "End": 466,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 465,
+        "End": 466,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 466,
+        "End": 467,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 467,
+        "End": 468,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 466,
+        "End": 469,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 5326.2
+      },
+      {
+        "Start": 468,
+        "End": 469,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_5",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 464,
+        "End": 469,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 150000.0,
+        "Cost": 5483.4
+      },
+      {
+        "Start": 469,
+        "End": 471,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 469,
+        "End": 471,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 466,
+        "End": 471,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 150000.0,
+        "Cost": 5968.2
+      },
+      {
+        "Start": 466,
+        "End": 472,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 180000.0,
+        "Cost": 6289.2
+      },
+      {
+        "Start": 471,
+        "End": 472,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 471,
+        "End": 472,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 468,
+        "End": 473,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_4",
+        "Energy": 150000.0,
+        "Cost": 6210.6
+      },
+      {
+        "Start": 472,
+        "End": 473,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 472,
+        "End": 474,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 473,
+        "End": 474,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 472,
+        "End": 474,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 474,
+        "End": 475,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 473,
+        "End": 475,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 471,
+        "End": 476,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_2",
+        "Energy": 150000.0,
+        "Cost": 6210.6
+      },
+      {
+        "Start": 475,
+        "End": 476,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 475,
+        "End": 477,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 474,
+        "End": 477,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 477,
+        "End": 479,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 479,
+        "End": 480,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 477,
+        "End": 481,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 477,
+        "End": 481,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 480,
+        "End": 482,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 481,
+        "End": 482,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 481,
+        "End": 482,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 482,
+        "End": 483,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 479,
+        "End": 483,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 481,
+        "End": 484,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 483,
+        "End": 484,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 482,
+        "End": 485,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 484,
+        "End": 485,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 485,
+        "End": 486,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 485,
+        "End": 489,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 514,
+        "End": 515,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 515,
+        "End": 516,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 516,
+        "End": 518,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 516,
+        "End": 519,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 518,
+        "End": 520,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 518,
+        "End": 520,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 519,
+        "End": 522,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 520,
+        "End": 522,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 520,
+        "End": 523,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 522,
+        "End": 523,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_5",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 522,
+        "End": 524,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 522,
+        "End": 524,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 521,
+        "End": 524,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_4",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 524,
+        "End": 525,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 520,
+        "End": 525,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 523,
+        "End": 525,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_5",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 524,
+        "End": 526,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 525,
+        "End": 526,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 526,
+        "End": 527,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 525,
+        "End": 527,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 527,
+        "End": 528,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 524,
+        "End": 529,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_4",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 528,
+        "End": 532,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_2",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 531,
+        "End": 533,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_4",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 523,
+        "End": 533,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 300000.0,
+        "Cost": 786.0
+      },
+      {
+        "Start": 533,
+        "End": 535,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 527,
+        "End": 535,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 240000.0,
+        "Cost": 628.8
+      },
+      {
+        "Start": 529,
+        "End": 535,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_3",
+        "Energy": 180000.0,
+        "Cost": 471.6
+      },
+      {
+        "Start": 535,
+        "End": 536,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 535,
+        "End": 537,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 537,
+        "End": 538,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 536,
+        "End": 539,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 539,
+        "End": 540,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 538,
+        "End": 540,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 540,
+        "End": 542,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 540,
+        "End": 542,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 543,
+        "End": 544,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 542,
+        "End": 546,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 799.2
+      },
+      {
+        "Start": 544,
+        "End": 546,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 642.0
+      },
+      {
+        "Start": 546,
+        "End": 548,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 1126.8
+      },
+      {
+        "Start": 546,
+        "End": 548,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 1126.8
+      },
+      {
+        "Start": 547,
+        "End": 549,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 1369.2
+      },
+      {
+        "Start": 548,
+        "End": 549,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 1290.6
+      },
+      {
+        "Start": 548,
+        "End": 549,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 1290.6
+      },
+      {
+        "Start": 549,
+        "End": 550,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 1533.0
+      },
+      {
+        "Start": 549,
+        "End": 550,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 1533.0
+      },
+      {
+        "Start": 549,
+        "End": 550,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 1533.0
+      },
+      {
+        "Start": 550,
+        "End": 552,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 2096.4
+      },
+      {
+        "Start": 551,
+        "End": 552,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 2017.8
+      },
+      {
+        "Start": 550,
+        "End": 552,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 2096.4
+      },
+      {
+        "Start": 552,
+        "End": 553,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 2260.2
+      },
+      {
+        "Start": 553,
+        "End": 554,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 2502.6
+      },
+      {
+        "Start": 552,
+        "End": 554,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 2581.2
+      },
+      {
+        "Start": 554,
+        "End": 555,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 2745.0
+      },
+      {
+        "Start": 556,
+        "End": 558,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 3550.8
+      },
+      {
+        "Start": 558,
+        "End": 559,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3714.6
+      },
+      {
+        "Start": 559,
+        "End": 560,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3957.0
+      },
+      {
+        "Start": 559,
+        "End": 560,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 3957.0
+      },
+      {
+        "Start": 555,
+        "End": 561,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 180000.0,
+        "Cost": 4592.4
+      },
+      {
+        "Start": 560,
+        "End": 561,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4199.4
+      },
+      {
+        "Start": 560,
+        "End": 561,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4199.4
+      },
+      {
+        "Start": 561,
+        "End": 562,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 561,
+        "End": 562,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4441.8
+      },
+      {
+        "Start": 562,
+        "End": 563,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 561,
+        "End": 563,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 4762.8
+      },
+      {
+        "Start": 562,
+        "End": 563,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 563,
+        "End": 564,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 563,
+        "End": 564,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 560,
+        "End": 565,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 150000.0,
+        "Cost": 5483.4
+      },
+      {
+        "Start": 563,
+        "End": 565,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5247.6
+      },
+      {
+        "Start": 564,
+        "End": 565,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_5",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 565,
+        "End": 566,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5411.4
+      },
+      {
+        "Start": 565,
+        "End": 567,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5732.4
+      },
+      {
+        "Start": 566,
+        "End": 567,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5653.8
+      },
+      {
+        "Start": 564,
+        "End": 568,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 567,
+        "End": 568,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 562,
+        "End": 569,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 210000.0,
+        "Cost": 6367.8
+      },
+      {
+        "Start": 568,
+        "End": 569,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 564,
+        "End": 570,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 180000.0,
+        "Cost": 6289.2
+      },
+      {
+        "Start": 565,
+        "End": 570,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_5",
+        "Energy": 150000.0,
+        "Cost": 6210.6
+      },
+      {
+        "Start": 568,
+        "End": 571,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 570,
+        "End": 571,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 569,
+        "End": 572,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 571,
+        "End": 572,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 571,
+        "End": 573,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 572,
+        "End": 573,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 573,
+        "End": 574,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 574,
+        "End": 575,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 572,
+        "End": 575,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 575,
+        "End": 576,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 573,
+        "End": 576,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 575,
+        "End": 576,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 575,
+        "End": 577,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 576,
+        "End": 577,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 576,
+        "End": 578,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 577,
+        "End": 578,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 577,
+        "End": 578,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 577,
+        "End": 579,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 578,
+        "End": 579,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 579,
+        "End": 580,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 578,
+        "End": 581,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 581,
+        "End": 582,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 580,
+        "End": 582,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 579,
+        "End": 583,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 582,
+        "End": 584,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 610,
+        "End": 611,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 611,
+        "End": 613,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 612,
+        "End": 613,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 613,
+        "End": 614,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 614,
+        "End": 615,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 613,
+        "End": 616,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 615,
+        "End": 616,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 614,
+        "End": 616,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 616,
+        "End": 617,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 616,
+        "End": 617,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 616,
+        "End": 617,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 616,
+        "End": 618,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 617,
+        "End": 618,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 617,
+        "End": 619,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 617,
+        "End": 619,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 618,
+        "End": 620,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 618,
+        "End": 621,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 621,
+        "End": 623,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 619,
+        "End": 623,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 621,
+        "End": 623,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 618,
+        "End": 623,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_4",
+        "Energy": 150000.0,
+        "Cost": 393.0
+      },
+      {
+        "Start": 623,
+        "End": 624,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 624,
+        "End": 625,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 619,
+        "End": 625,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 180000.0,
+        "Cost": 471.6
+      },
+      {
+        "Start": 623,
+        "End": 625,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 625,
+        "End": 626,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 623,
+        "End": 627,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 314.4
+      },
+      {
+        "Start": 626,
+        "End": 627,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 625,
+        "End": 628,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 627,
+        "End": 628,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 627,
+        "End": 628,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 628,
+        "End": 629,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 628,
+        "End": 629,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 629,
+        "End": 630,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 628,
+        "End": 630,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 630,
+        "End": 631,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 625,
+        "End": 631,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 180000.0,
+        "Cost": 471.6
+      },
+      {
+        "Start": 631,
+        "End": 632,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 630,
+        "End": 632,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 632,
+        "End": 634,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 634,
+        "End": 635,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 633,
+        "End": 636,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 235.8
+      },
+      {
+        "Start": 636,
+        "End": 637,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 635,
+        "End": 637,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 157.2
+      },
+      {
+        "Start": 637,
+        "End": 638,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 637,
+        "End": 638,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 638,
+        "End": 639,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 638,
+        "End": 639,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 78.6
+      },
+      {
+        "Start": 637,
+        "End": 641,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 556.8
+      },
+      {
+        "Start": 639,
+        "End": 641,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 399.6
+      },
+      {
+        "Start": 639,
+        "End": 641,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 399.6
+      },
+      {
+        "Start": 641,
+        "End": 642,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 563.4
+      },
+      {
+        "Start": 641,
+        "End": 643,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 884.4
+      },
+      {
+        "Start": 642,
+        "End": 643,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 805.8
+      },
+      {
+        "Start": 641,
+        "End": 643,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 884.4
+      },
+      {
+        "Start": 643,
+        "End": 644,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 1048.2
+      },
+      {
+        "Start": 643,
+        "End": 645,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 1369.2
+      },
+      {
+        "Start": 645,
+        "End": 646,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 1533.0
+      },
+      {
+        "Start": 643,
+        "End": 646,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 1690.2
+      },
+      {
+        "Start": 646,
+        "End": 647,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 1775.4
+      },
+      {
+        "Start": 647,
+        "End": 650,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_1",
+        "Energy": 90000.0,
+        "Cost": 2659.8
+      },
+      {
+        "Start": 646,
+        "End": 650,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 2738.4
+      },
+      {
+        "Start": 649,
+        "End": 650,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 2502.6
+      },
+      {
+        "Start": 650,
+        "End": 652,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 3066.0
+      },
+      {
+        "Start": 652,
+        "End": 653,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 3229.8
+      },
+      {
+        "Start": 650,
+        "End": 654,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 120000.0,
+        "Cost": 3708.0
+      },
+      {
+        "Start": 653,
+        "End": 655,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 3793.2
+      },
+      {
+        "Start": 654,
+        "End": 656,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 4035.6
+      },
+      {
+        "Start": 655,
+        "End": 657,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 4278.0
+      },
+      {
+        "Start": 651,
+        "End": 658,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 210000.0,
+        "Cost": 4913.4
+      },
+      {
+        "Start": 656,
+        "End": 658,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_3",
+        "Energy": 60000.0,
+        "Cost": 4520.4
+      },
+      {
+        "Start": 658,
+        "End": 659,
+        "Vehicle": "華德_6",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 657,
+        "End": 659,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_1",
+        "Energy": 60000.0,
+        "Cost": 4762.8
+      },
+      {
+        "Start": 658,
+        "End": 659,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4684.2
+      },
+      {
+        "Start": 658,
+        "End": 660,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5005.2
+      },
+      {
+        "Start": 659,
+        "End": 660,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 659,
+        "End": 660,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 4926.6
+      },
+      {
+        "Start": 660,
+        "End": 661,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 660,
+        "End": 661,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 660,
+        "End": 661,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5169.0
+      },
+      {
+        "Start": 660,
+        "End": 662,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5490.0
+      },
+      {
+        "Start": 661,
+        "End": 662,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_1",
+        "Energy": 30000.0,
+        "Cost": 5411.4
+      },
+      {
+        "Start": 661,
+        "End": 662,
+        "Vehicle": "華德_8",
+        "Charger": "華德充電樁_4",
+        "Energy": 30000.0,
+        "Cost": 5411.4
+      },
+      {
+        "Start": 662,
+        "End": 663,
+        "Vehicle": "華德_4",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5653.8
+      },
+      {
+        "Start": 656,
+        "End": 664,
+        "Vehicle": "華德_0",
+        "Charger": "華德充電樁_0",
+        "Energy": 240000.0,
+        "Cost": 6446.4
+      },
+      {
+        "Start": 661,
+        "End": 664,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 663,
+        "End": 664,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 664,
+        "End": 665,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_2",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 662,
+        "End": 666,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 664,
+        "End": 666,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_0",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 665,
+        "End": 666,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 665,
+        "End": 667,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 60000.0,
+        "Cost": 5974.8
+      },
+      {
+        "Start": 666,
+        "End": 667,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 666,
+        "End": 667,
+        "Vehicle": "華德_2",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 667,
+        "End": 668,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 667,
+        "End": 668,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 668,
+        "End": 669,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 669,
+        "End": 670,
+        "Vehicle": "華德_1",
+        "Charger": "華德充電樁_0",
+        "Energy": 30000.0,
+        "Cost": 5896.2
+      },
+      {
+        "Start": 667,
+        "End": 670,
+        "Vehicle": "華德_3",
+        "Charger": "華德充電樁_2",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      },
+      {
+        "Start": 666,
+        "End": 670,
+        "Vehicle": "華德_5",
+        "Charger": "華德充電樁_1",
+        "Energy": 120000.0,
+        "Cost": 6132.0
+      },
+      {
+        "Start": 668,
+        "End": 671,
+        "Vehicle": "華德_7",
+        "Charger": "華德充電樁_3",
+        "Energy": 90000.0,
+        "Cost": 6053.4
+      }
+    ]
+  }
+]

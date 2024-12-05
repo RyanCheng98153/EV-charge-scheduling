@@ -79,7 +79,7 @@ def main( args: argparse.Namespace ):
                 (RealTime(17, 0), RealTime(19, 30))
             ],
             rush_freq=RealTime(0, 15), # 尖峰 15 分一班
-            weekdays=[0], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
+            weekdays=[0, 1, 2, 3, 4, 5, 6], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
         ))
     
     if args.mode == "genetic":
@@ -110,6 +110,9 @@ def main( args: argparse.Namespace ):
         json_str = json.dumps(best_results, indent=2, ensure_ascii=False)
         with open(args.outfile, "w", encoding="utf-8") as f:
             f.write(json_str)
+        
+        # for s in scheduler.schedule_table:
+        #     print(s)
         
         exit()
         

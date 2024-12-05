@@ -80,9 +80,9 @@ class TaskFactory:
             day_time    = day * RealTime.DAY_TIMESLOT
             cur_time    = day_time + first_run.getTimeslot()
             end_time    = day_time + last_run.getTimeslot()
-            freq_time   = day_time + frequency.getTimeslot()
-
-            duration = travel_time.getTimeslot()
+            
+            freq_time   = frequency.getTimeslot()
+            duration    = travel_time.getTimeslot()
             
             rush_time = [ (day_time + rush[0].getTimeslot(), day_time + rush[1].getTimeslot()) for rush in rush_hour ]
             rush_freq_time = rush_freq.getTimeslot()

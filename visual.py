@@ -63,7 +63,7 @@ if __name__ == '__main__':
     ax.set_title('Bus 236 Travel Table', fontsize=14)
 
     # Customizing time ticks for better readability
-    plt.xticks(range(20, 100, 2))  # Adjust this based on your time range
+    plt.xticks(range(20, 700, 96))  # Adjust this based on your time range
     plt.grid(True)
 
     # Display the plot
