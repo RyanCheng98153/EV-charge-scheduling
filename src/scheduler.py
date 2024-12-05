@@ -211,16 +211,28 @@ class Scheduler():
                 continue
             self.chargers[vehicle.charger_id].charging()
     
-    def plug_vehicle(self, vehicle, curTime):
+    def plug_vehicle(self, vehicle: Vehicle, curTime):
+        if vehicle.soc >= 100:
+            return
         for charger in self.chargers.values():
             if charger.state == ChargerState.IDLE and vehicle.VEHICLE_TYPE in charger.charge_type.SERVED_VEHICLES:
                 charger.plugVehicle(vehicle, curTime)
                 break
                 
-    def unplug_vehicle(self, vehicle, curTime):
+    def unplug_vehicle(self, vehicle: Vehicle, curTime):
         if vehicle.state == VehicleState.CHARGING:
             charger = self.chargers[vehicle.charger_id]
-            charger.unplugVehicle(curTime)
+            # charger.unplugVehicle(curTime)
+            
+            v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
+            if startT != endT:
+                self.charge_table.append(ChargeSchedule(startT, 
+                                                        endT, 
+                                                        v_id, 
+                                                        charger.ID, 
+                                                        charge_energy, 
+                                                        charge_cost))
+                
             
     def getResult(self):
         return {

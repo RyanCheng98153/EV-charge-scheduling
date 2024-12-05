@@ -41,7 +41,7 @@ class Vehicle:
         
         # member variables
         # self.cycle_life = 1
-        self.soc: float = 100
+        self.soc: float = 100.0
         self.remain_energy: float = self.BATTERY_CAPACITY
         self.state: VehicleState = VehicleState.IDLE
         self.start_time: int = 0
@@ -59,7 +59,7 @@ class Vehicle:
         self.idle_time = 0
     
     def getSOC(self):
-        return self.remain_energy / self.BATTERY_CAPACITY
+        return self.remain_energy / self.BATTERY_CAPACITY * 100
     
     def travel(self, _distance: float, _travel_start_time: int):
         if self.state == VehicleState.TRAVEL:
