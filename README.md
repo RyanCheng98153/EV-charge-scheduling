@@ -94,3 +94,10 @@ TaskFactory.generate(
     weekdays=[0], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
 )
 ```
+
+### Visualize
+- visualize the greedy method
+  - `python ./visual.py ./result.json`
+- visualize the genetic method
+  - `python .\visual.py .\results\result_10.json 0`
+- [file]: Store the figure file
