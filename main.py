@@ -79,7 +79,7 @@ def main( args: argparse.Namespace ):
                 (RealTime(17, 0), RealTime(19, 30))
             ],
             rush_freq=RealTime(0, 15), # 尖峰 15 分一班
-            weekdays=[0, 1, 2, 3, 4, 5, 6], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
+            weekdays=[ i for i in range(0, args.days) ], # 0: Monday, 1: Tuesday, 2: Wednesday, 3: Thursday, 4: Friday, 5: Saturday, 6: Sunday
         ))
     
     if args.mode == "genetic":
@@ -154,5 +154,6 @@ if __name__ == "__main__":
     parser.add_argument("-m", "--mode", choices=["simulate", "genetic"], required=False, default="simulate")
     parser.add_argument("-n", "--numsamples", type=int, default=100, required=False)
     parser.add_argument("-o", "--outfile", type=str, default="result.json", required=False)
+    parser.add_argument("-d", "--days", type=int, required=False, default=7)
     
     main(parser.parse_args())
