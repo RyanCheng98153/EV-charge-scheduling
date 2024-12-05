@@ -54,7 +54,7 @@ class Solver:
         best_fitness = float('inf')
         for genes in self.population:
             current_fitness, current_result, is_success = self.fitness(genes)
-            if current_fitness < best_fitness and is_success:
+            if is_success and current_fitness < best_fitness:
                 best_fitness = current_fitness
                 best_individual = genes
                 self.best_result = current_result

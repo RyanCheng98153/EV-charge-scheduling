@@ -24,18 +24,23 @@ def get_travel_dict(travel_item: dict) -> dict:
 def get_charge_dict(charge_item: dict) -> dict:
     # Extract the base name of the vehicle (e.g., '華德' from '華德_0')
     # { "Start": 0, "End": 0, "Vehicle": "華德_1", "Charger": "華德充電樁_0", "Energy": 0.0, "Cost": 5817.6 },
-    charge_name = "Charger" + charge_item['Charger'].split('_')[1]
+    # charge_name = "Charger" + charge_item['Charger'].split('_')[1]
+    vehicle_name = "HuaDe" + charge_item['Vehicle'].split('_')[1]
     
     # Return a new dictionary with required keys and values
     return {
-        'Task': charge_name,  # Task is the vehicle name without the suffix
+        'Task': vehicle_name,  # Task is the vehicle name without the suffix
         'Start': charge_item['Start'],  # Start time
         'Finish': charge_item['End']  # End time
     }
 
 if __name__ == '__main__':
-    num: int = int(sys.argv[2])
-    data = datas[0]
+    
+    if len(sys.argv) == 3:
+        num: int = int(sys.argv[2])
+        data = datas[0]
+    else:
+        data = datas
     
     # Convert all travel data and charge data
     travel_data = [get_travel_dict(item) for item in data['travel_table']]
@@ -63,4 +68,11 @@ if __name__ == '__main__':
 
     # Display the plot
     plt.tight_layout()
-    plt.show()
+    
+    if len(sys.argv) == 3 and sys.argv[2] == "file" and len(sys.argv) == 4 and sys.argv[3] == "file":
+        filename = sys.argv[1].split('/')[-1].split('\\')[-1].split('.')[0]
+        
+        with open(f"./figure/{filename}_fig{num}.png", 'wb') as f:
+            fig.savefig(f)
+    else:
+        plt.show()

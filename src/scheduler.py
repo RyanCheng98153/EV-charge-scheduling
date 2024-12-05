@@ -205,11 +205,11 @@ class Scheduler():
                 charger.plugVehicle(vehicle, curTime)
                 break
             
-            # Step 5: 執行充電動作
-            for vehicle in self.vehicles.values():
-                if vehicle.state != VehicleState.CHARGING:
-                    continue
-                self.chargers[vehicle.charger_id].charging()
+        # Step 5: 執行充電動作
+        for vehicle in self.vehicles.values():
+            if vehicle.state != VehicleState.CHARGING:
+                continue
+            self.chargers[vehicle.charger_id].charging()
     
     def plug_vehicle(self, vehicle, curTime):
         for charger in self.chargers.values():

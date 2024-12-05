@@ -89,7 +89,7 @@
       {
         "Start": 41,
         "End": 47,
-        "Vehicle": "華德_8",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
@@ -101,55 +101,55 @@
       {
         "Start": 45,
         "End": 51,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_6",
         "Distance": 18
       },
       {
         "Start": 47,
         "End": 53,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 49,
         "End": 55,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 51,
         "End": 57,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 53,
         "End": 59,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_4",
         "Distance": 18
       },
       {
         "Start": 55,
         "End": 61,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 57,
         "End": 63,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 59,
         "End": 65,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 61,
         "End": 67,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
@@ -161,115 +161,667 @@
       {
         "Start": 65,
         "End": 71,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 67,
         "End": 73,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_8",
         "Distance": 18
       },
       {
         "Start": 69,
         "End": 75,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_4",
         "Distance": 18
       },
       {
         "Start": 70,
         "End": 76,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_6",
         "Distance": 18
       },
       {
         "Start": 71,
         "End": 77,
-        "Vehicle": "華德_4",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 72,
         "End": 78,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_7",
         "Distance": 18
       },
       {
         "Start": 73,
         "End": 79,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 74,
         "End": 80,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 75,
+        "End": 81,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 76,
+        "End": 82,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 77,
+        "End": 83,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 78,
+        "End": 84,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 79,
+        "End": 85,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 81,
+        "End": 87,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 83,
+        "End": 89,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 85,
+        "End": 91,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 87,
+        "End": 93,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 89,
+        "End": 95,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 91,
+        "End": 97,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      }
+    ],
+    "charge_table": []
+  },
+  {
+    "TotalCost": 0,
+    "travel_table": [
+      {
+        "Start": 22,
+        "End": 28,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 24,
+        "End": 30,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 26,
+        "End": 32,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 28,
+        "End": 34,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 29,
+        "End": 35,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 30,
+        "End": 36,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 31,
+        "End": 37,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 32,
+        "End": 38,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 33,
+        "End": 39,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 34,
+        "End": 40,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 35,
+        "End": 41,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 36,
+        "End": 42,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 37,
+        "End": 43,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 39,
+        "End": 45,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 41,
+        "End": 47,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 43,
+        "End": 49,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 45,
+        "End": 51,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 47,
+        "End": 53,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 49,
+        "End": 55,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 51,
+        "End": 57,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 53,
+        "End": 59,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 55,
+        "End": 61,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 57,
+        "End": 63,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 59,
+        "End": 65,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 61,
+        "End": 67,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 63,
+        "End": 69,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 65,
+        "End": 71,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 67,
+        "End": 73,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 69,
+        "End": 75,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 70,
+        "End": 76,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 71,
+        "End": 77,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 72,
+        "End": 78,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 73,
+        "End": 79,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 74,
+        "End": 80,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 75,
+        "End": 81,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 76,
+        "End": 82,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 77,
+        "End": 83,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 78,
+        "End": 84,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 79,
+        "End": 85,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 81,
+        "End": 87,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 83,
+        "End": 89,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 85,
+        "End": 91,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 87,
+        "End": 93,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 89,
+        "End": 95,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 91,
+        "End": 97,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      }
+    ],
+    "charge_table": []
+  },
+  {
+    "TotalCost": 0,
+    "travel_table": [
+      {
+        "Start": 22,
+        "End": 28,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 24,
+        "End": 30,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 26,
+        "End": 32,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 28,
+        "End": 34,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 29,
+        "End": 35,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 30,
+        "End": 36,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 31,
+        "End": 37,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 32,
+        "End": 38,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 33,
+        "End": 39,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 34,
+        "End": 40,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 35,
+        "End": 41,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 36,
+        "End": 42,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 37,
+        "End": 43,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 39,
+        "End": 45,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 41,
+        "End": 47,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 43,
+        "End": 49,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 45,
+        "End": 51,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 47,
+        "End": 53,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 49,
+        "End": 55,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 51,
+        "End": 57,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 53,
+        "End": 59,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 55,
+        "End": 61,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 57,
+        "End": 63,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 59,
+        "End": 65,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 61,
+        "End": 67,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 63,
+        "End": 69,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 65,
+        "End": 71,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 67,
+        "End": 73,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 69,
+        "End": 75,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 70,
+        "End": 76,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 71,
+        "End": 77,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 72,
+        "End": 78,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 73,
+        "End": 79,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 74,
+        "End": 80,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 75,
+        "End": 81,
         "Vehicle": "華德_9",
         "Distance": 18
       },
       {
-        "Start": 75,
-        "End": 81,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
         "Start": 76,
         "End": 82,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_6",
         "Distance": 18
       },
       {
         "Start": 77,
         "End": 83,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
         "Start": 78,
         "End": 84,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 79,
         "End": 85,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 81,
         "End": 87,
-        "Vehicle": "華德_4",
+        "Vehicle": "華德_7",
         "Distance": 18
       },
       {
         "Start": 83,
         "End": 89,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_4",
         "Distance": 18
       },
       {
         "Start": 85,
         "End": 91,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 87,
         "End": 93,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 89,
         "End": 95,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 91,
         "End": 97,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_4",
         "Distance": 18
       }
     ],
@@ -359,7 +911,559 @@
       {
         "Start": 39,
         "End": 45,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 41,
+        "End": 47,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 43,
+        "End": 49,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 45,
+        "End": 51,
         "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 47,
+        "End": 53,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 49,
+        "End": 55,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 51,
+        "End": 57,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 53,
+        "End": 59,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 55,
+        "End": 61,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 57,
+        "End": 63,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 59,
+        "End": 65,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 61,
+        "End": 67,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 63,
+        "End": 69,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 65,
+        "End": 71,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 67,
+        "End": 73,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 69,
+        "End": 75,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 70,
+        "End": 76,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 71,
+        "End": 77,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 72,
+        "End": 78,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 73,
+        "End": 79,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 74,
+        "End": 80,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 75,
+        "End": 81,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 76,
+        "End": 82,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 77,
+        "End": 83,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 78,
+        "End": 84,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 79,
+        "End": 85,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 81,
+        "End": 87,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 83,
+        "End": 89,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 85,
+        "End": 91,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 87,
+        "End": 93,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 89,
+        "End": 95,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 91,
+        "End": 97,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      }
+    ],
+    "charge_table": []
+  },
+  {
+    "TotalCost": 0,
+    "travel_table": [
+      {
+        "Start": 22,
+        "End": 28,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 24,
+        "End": 30,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 26,
+        "End": 32,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 28,
+        "End": 34,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 29,
+        "End": 35,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 30,
+        "End": 36,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 31,
+        "End": 37,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 32,
+        "End": 38,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 33,
+        "End": 39,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 34,
+        "End": 40,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 35,
+        "End": 41,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 36,
+        "End": 42,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 37,
+        "End": 43,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 39,
+        "End": 45,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 41,
+        "End": 47,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 43,
+        "End": 49,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 45,
+        "End": 51,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 47,
+        "End": 53,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 49,
+        "End": 55,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 51,
+        "End": 57,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 53,
+        "End": 59,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 55,
+        "End": 61,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 57,
+        "End": 63,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 59,
+        "End": 65,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 61,
+        "End": 67,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 63,
+        "End": 69,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 65,
+        "End": 71,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 67,
+        "End": 73,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 69,
+        "End": 75,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 70,
+        "End": 76,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 71,
+        "End": 77,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 72,
+        "End": 78,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 73,
+        "End": 79,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 74,
+        "End": 80,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 75,
+        "End": 81,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 76,
+        "End": 82,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 77,
+        "End": 83,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 78,
+        "End": 84,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 79,
+        "End": 85,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 81,
+        "End": 87,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 83,
+        "End": 89,
+        "Vehicle": "華德_8",
+        "Distance": 18
+      },
+      {
+        "Start": 85,
+        "End": 91,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 87,
+        "End": 93,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 89,
+        "End": 95,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 91,
+        "End": 97,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      }
+    ],
+    "charge_table": []
+  },
+  {
+    "TotalCost": 0,
+    "travel_table": [
+      {
+        "Start": 22,
+        "End": 28,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 24,
+        "End": 30,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 26,
+        "End": 32,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 28,
+        "End": 34,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
+        "Start": 29,
+        "End": 35,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 30,
+        "End": 36,
+        "Vehicle": "華德_1",
+        "Distance": 18
+      },
+      {
+        "Start": 31,
+        "End": 37,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 32,
+        "End": 38,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 33,
+        "End": 39,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 34,
+        "End": 40,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 35,
+        "End": 41,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 36,
+        "End": 42,
+        "Vehicle": "華德_7",
+        "Distance": 18
+      },
+      {
+        "Start": 37,
+        "End": 43,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 39,
+        "End": 45,
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
@@ -377,127 +1481,127 @@
       {
         "Start": 45,
         "End": 51,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 47,
         "End": 53,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 49,
         "End": 55,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 51,
         "End": 57,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 53,
         "End": 59,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 55,
         "End": 61,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
         "Start": 57,
         "End": 63,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 59,
         "End": 65,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 61,
         "End": 67,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
         "Start": 63,
         "End": 69,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 65,
         "End": 71,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 67,
         "End": 73,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 69,
-        "End": 75,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 70,
-        "End": 76,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 71,
-        "End": 77,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 72,
-        "End": 78,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 73,
-        "End": 79,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 74,
-        "End": 80,
         "Vehicle": "華德_9",
         "Distance": 18
       },
       {
+        "Start": 69,
+        "End": 75,
+        "Vehicle": "華德_2",
+        "Distance": 18
+      },
+      {
+        "Start": 70,
+        "End": 76,
+        "Vehicle": "華德_4",
+        "Distance": 18
+      },
+      {
+        "Start": 71,
+        "End": 77,
+        "Vehicle": "華德_3",
+        "Distance": 18
+      },
+      {
+        "Start": 72,
+        "End": 78,
+        "Vehicle": "華德_6",
+        "Distance": 18
+      },
+      {
+        "Start": 73,
+        "End": 79,
+        "Vehicle": "華德_5",
+        "Distance": 18
+      },
+      {
+        "Start": 74,
+        "End": 80,
+        "Vehicle": "華德_0",
+        "Distance": 18
+      },
+      {
         "Start": 75,
         "End": 81,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 76,
         "End": 82,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 77,
         "End": 83,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_7",
         "Distance": 18
       },
       {
@@ -509,43 +1613,43 @@
       {
         "Start": 79,
         "End": 85,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_4",
         "Distance": 18
       },
       {
         "Start": 81,
         "End": 87,
-        "Vehicle": "華德_4",
+        "Vehicle": "華德_6",
         "Distance": 18
       },
       {
         "Start": 83,
         "End": 89,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_7",
         "Distance": 18
       },
       {
         "Start": 85,
         "End": 91,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 87,
         "End": 93,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 89,
         "End": 95,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 91,
         "End": 97,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_4",
         "Distance": 18
       }
     ],
@@ -635,7 +1739,7 @@
       {
         "Start": 39,
         "End": 45,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
@@ -653,73 +1757,73 @@
       {
         "Start": 45,
         "End": 51,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 47,
         "End": 53,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 49,
         "End": 55,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 51,
         "End": 57,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 53,
         "End": 59,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 55,
         "End": 61,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
         "Start": 57,
         "End": 63,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 59,
         "End": 65,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 61,
         "End": 67,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
         "Start": 63,
         "End": 69,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 65,
         "End": 71,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 67,
         "End": 73,
-        "Vehicle": "華德_4",
+        "Vehicle": "華德_6",
         "Distance": 18
       },
       {
@@ -731,37 +1835,37 @@
       {
         "Start": 70,
         "End": 76,
-        "Vehicle": "華德_1",
+        "Vehicle": "華德_4",
         "Distance": 18
       },
       {
         "Start": 71,
         "End": 77,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 72,
         "End": 78,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_7",
         "Distance": 18
       },
       {
         "Start": 73,
         "End": 79,
-        "Vehicle": "華德_4",
+        "Vehicle": "華德_5",
         "Distance": 18
       },
       {
         "Start": 74,
         "End": 80,
-        "Vehicle": "華德_9",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 75,
         "End": 81,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
@@ -773,19 +1877,19 @@
       {
         "Start": 77,
         "End": 83,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_6",
         "Distance": 18
       },
       {
         "Start": 78,
         "End": 84,
-        "Vehicle": "華德_2",
+        "Vehicle": "華德_3",
         "Distance": 18
       },
       {
         "Start": 79,
         "End": 85,
-        "Vehicle": "華德_6",
+        "Vehicle": "華德_4",
         "Distance": 18
       },
       {
@@ -797,583 +1901,31 @@
       {
         "Start": 83,
         "End": 89,
-        "Vehicle": "華德_0",
+        "Vehicle": "華德_8",
         "Distance": 18
       },
       {
         "Start": 85,
         "End": 91,
-        "Vehicle": "華德_4",
+        "Vehicle": "華德_0",
         "Distance": 18
       },
       {
         "Start": 87,
         "End": 93,
-        "Vehicle": "華德_3",
+        "Vehicle": "華德_1",
         "Distance": 18
       },
       {
         "Start": 89,
         "End": 95,
-        "Vehicle": "華德_5",
+        "Vehicle": "華德_2",
         "Distance": 18
       },
       {
         "Start": 91,
         "End": 97,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      }
-    ],
-    "charge_table": []
-  },
-  {
-    "TotalCost": 0,
-    "travel_table": [
-      {
-        "Start": 22,
-        "End": 28,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 24,
-        "End": 30,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 26,
-        "End": 32,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 28,
-        "End": 34,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 29,
-        "End": 35,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 30,
-        "End": 36,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 31,
-        "End": 37,
         "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 32,
-        "End": 38,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 33,
-        "End": 39,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 34,
-        "End": 40,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 35,
-        "End": 41,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 36,
-        "End": 42,
-        "Vehicle": "華德_7",
-        "Distance": 18
-      },
-      {
-        "Start": 37,
-        "End": 43,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 39,
-        "End": 45,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 41,
-        "End": 47,
-        "Vehicle": "華德_8",
-        "Distance": 18
-      },
-      {
-        "Start": 43,
-        "End": 49,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 45,
-        "End": 51,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 47,
-        "End": 53,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 49,
-        "End": 55,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 51,
-        "End": 57,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 53,
-        "End": 59,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 55,
-        "End": 61,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 57,
-        "End": 63,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 59,
-        "End": 65,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 61,
-        "End": 67,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 63,
-        "End": 69,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 65,
-        "End": 71,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 67,
-        "End": 73,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 69,
-        "End": 75,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 70,
-        "End": 76,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 71,
-        "End": 77,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 72,
-        "End": 78,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 73,
-        "End": 79,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 74,
-        "End": 80,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 75,
-        "End": 81,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 76,
-        "End": 82,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 77,
-        "End": 83,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 78,
-        "End": 84,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 79,
-        "End": 85,
-        "Vehicle": "華德_8",
-        "Distance": 18
-      },
-      {
-        "Start": 81,
-        "End": 87,
-        "Vehicle": "華德_7",
-        "Distance": 18
-      },
-      {
-        "Start": 83,
-        "End": 89,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 85,
-        "End": 91,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 87,
-        "End": 93,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 89,
-        "End": 95,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 91,
-        "End": 97,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      }
-    ],
-    "charge_table": []
-  },
-  {
-    "TotalCost": 0,
-    "travel_table": [
-      {
-        "Start": 22,
-        "End": 28,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 24,
-        "End": 30,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 26,
-        "End": 32,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 28,
-        "End": 34,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 29,
-        "End": 35,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 30,
-        "End": 36,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 31,
-        "End": 37,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 32,
-        "End": 38,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 33,
-        "End": 39,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 34,
-        "End": 40,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 35,
-        "End": 41,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 36,
-        "End": 42,
-        "Vehicle": "華德_7",
-        "Distance": 18
-      },
-      {
-        "Start": 37,
-        "End": 43,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 39,
-        "End": 45,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 41,
-        "End": 47,
-        "Vehicle": "華德_8",
-        "Distance": 18
-      },
-      {
-        "Start": 43,
-        "End": 49,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 45,
-        "End": 51,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 47,
-        "End": 53,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 49,
-        "End": 55,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 51,
-        "End": 57,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 53,
-        "End": 59,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 55,
-        "End": 61,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 57,
-        "End": 63,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 59,
-        "End": 65,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 61,
-        "End": 67,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 63,
-        "End": 69,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 65,
-        "End": 71,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 67,
-        "End": 73,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 69,
-        "End": 75,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 70,
-        "End": 76,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 71,
-        "End": 77,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 72,
-        "End": 78,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 73,
-        "End": 79,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 74,
-        "End": 80,
-        "Vehicle": "華德_6",
-        "Distance": 18
-      },
-      {
-        "Start": 75,
-        "End": 81,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 76,
-        "End": 82,
-        "Vehicle": "華德_1",
-        "Distance": 18
-      },
-      {
-        "Start": 77,
-        "End": 83,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 78,
-        "End": 84,
-        "Vehicle": "華德_2",
-        "Distance": 18
-      },
-      {
-        "Start": 79,
-        "End": 85,
-        "Vehicle": "華德_8",
-        "Distance": 18
-      },
-      {
-        "Start": 81,
-        "End": 87,
-        "Vehicle": "華德_7",
-        "Distance": 18
-      },
-      {
-        "Start": 83,
-        "End": 89,
-        "Vehicle": "華德_0",
-        "Distance": 18
-      },
-      {
-        "Start": 85,
-        "End": 91,
-        "Vehicle": "華德_4",
-        "Distance": 18
-      },
-      {
-        "Start": 87,
-        "End": 93,
-        "Vehicle": "華德_3",
-        "Distance": 18
-      },
-      {
-        "Start": 89,
-        "End": 95,
-        "Vehicle": "華德_5",
-        "Distance": 18
-      },
-      {
-        "Start": 91,
-        "End": 97,
-        "Vehicle": "華德_0",
         "Distance": 18
       }
     ],
