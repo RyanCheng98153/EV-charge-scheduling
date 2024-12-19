@@ -105,7 +105,7 @@ def main( args: argparse.Namespace ):
                 unique_dict_list.append(d)
 
         unique_dict_list.sort(key=lambda x: x['TotalCost'])
-        best_results = unique_dict_list
+        best_results = unique_dict_list[:10 if len(unique_dict_list) > 10 else len(unique_dict_list)]
         
         json_str = json.dumps(best_results, indent=2, ensure_ascii=False)
         with open(args.outfile, "w", encoding="utf-8") as f:

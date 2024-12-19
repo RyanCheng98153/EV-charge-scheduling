@@ -151,6 +151,5 @@ class Vehicle:
         
         health_degradation = numerator / denominator
         return health_degradation
-    
     """
     

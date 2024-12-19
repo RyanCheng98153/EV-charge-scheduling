@@ -1,4 +1,8 @@
-for i in 0 1 2 3 4 5 6 7 8 9 
+python ./visual.py ./results/greedy/result_day1_greedy.json file
+# python ./visual.py ./results/greedy/result_day7_greedy.json file
+
+for i in 1 10 100 500 1000
 do
-    python ./visual.py ./results/result_10.json $i
+    python ./visual.py ./results/1day/result_day1_gene_$i.json 0 file
+    # python ./visual.py ./results/7day/result_day7_gene_$i.json 0 file
 done

@@ -88,7 +88,6 @@ class Scheduler():
                 if vehicle.state == VehicleState.CHARGING:
                     charger = self.chargers[vehicle.charger_id]
                     v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
-                    
                     if startT != endT:
                         self.charge_table.append(ChargeSchedule(startT, 
                                                                 endT, 
@@ -151,7 +150,6 @@ class Scheduler():
                     self.charge_table.append(ChargeSchedule(startT, endT, 
                                                             v_id, charger.ID, 
                                                             charge_energy, charge_cost))
-        
         # Step 3: 更新車輛發車邏輯 -> 斷電, 先發車
         # : 如果無法完成下一班次 -> 模擬結束 
         for schedule in self.schedule_table:

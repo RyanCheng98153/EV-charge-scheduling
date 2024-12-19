@@ -99,9 +99,11 @@ class Charger:
         PEAK_HOUR_START, PEAK_HOUR_END = self.PEAK_HOUR[0] * 4, self.PEAK_HOUR[1] * 4
         
         # timeslot: 24 hours = 96 timeslot, 9 hours = 36 timeslot
-        peak_time = _charge_time // 96 * 60
-        offpeak_time = _charge_time // 96 * 36
+        # 尖峰時段 16:00 ~ 22:00, 離峰時段 22:00 ~ 16:00
+        peak_time = _charge_time // 96 * (PEAK_HOUR_END - PEAK_HOUR_START)
+        offpeak_time = _charge_time // 96 * (96 - (PEAK_HOUR_END - PEAK_HOUR_START))
         
+        _start_time = _start_time % 96
         # 計算結束時間，並模擬24小時（96個timeslot）循環
         end_time = (_start_time + _charge_time) % 96
         

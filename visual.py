@@ -35,7 +35,7 @@ def get_charge_dict(charge_item: dict) -> dict:
 
 if __name__ == '__main__':
     
-    if len(sys.argv) == 3:
+    if len(sys.argv) >= 3 and sys.argv[2].isdigit():
         num: int = int(sys.argv[2])
         data = datas[0]
     else:
@@ -46,7 +46,9 @@ if __name__ == '__main__':
     charge_data = [get_charge_dict(item) for item in data['charge_table']]
 
     # Create the plot
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(108, 6))
+    if "day1" in sys.argv[1]:
+        fig, ax = plt.subplots(figsize=(12, 6))
 
     # Plot each task as a bar
     for idx, task in enumerate(travel_data):
@@ -57,21 +59,35 @@ if __name__ == '__main__':
         ax.barh(task['Task'], task['Finish'] - task['Start'], left=task['Start'], color='orange', edgecolor='black', linewidth=1.5)
 
     # Formatting the plot
-    ax.set_xlabel('time (15 mins)', fontsize=12)
+    ax.set_xlabel('time (30 mins)', fontsize=12)
     ax.set_ylabel('Task', fontsize=12)
-    ax.set_title('Bus 236 Travel Table', fontsize=14)
+    
+    total_cost = [data['TotalCost']]
+    ax.set_title(f'Bus 236 Travel Table, Total cost: {total_cost}', fontsize=14)
 
     # Customizing time ticks for better readability
-    plt.xticks(range(20, 700, 96))  # Adjust this based on your time range
+    ticks = range(0, 700, 2)
+    if "day1" in sys.argv[1]:
+        ticks = range(0, 100, 2)
+    # plt.xticks(ticks)  # Adjust this based on your time range
+    ax.set_xticks(ticks)
+    xlabels = [
+        f"<Day {x // 96}>" if x % 96 == 0 else f"{x % 96 // 4:02}:{x % 4 * 15:02}" 
+        for x in ticks
+    ]
+    ax.set_xticklabels(xlabels, minor=False, rotation=45)
     plt.grid(True)
 
     # Display the plot
     plt.tight_layout()
     
-    if len(sys.argv) == 3 and sys.argv[2] == "file" and len(sys.argv) == 4 and sys.argv[3] == "file":
+    if (len(sys.argv) == 3 and sys.argv[2] == "file") or (len(sys.argv) == 4 and sys.argv[3] == "file"):
         filename = sys.argv[1].split('/')[-1].split('\\')[-1].split('.')[0]
         
+        if sys.argv[2] == "file":
+            num = ""
+        
         with open(f"./figure/{filename}_fig{num}.png", 'wb') as f:
-            fig.savefig(f)
+            fig.savefig(f, bbox_inches="tight", dpi=180)
     else:
         plt.show()

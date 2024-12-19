@@ -14,9 +14,15 @@ EV charging scheduling is a sub-problem of job scheduling problem, also known as
 pip install matplotlib
 ```
 
+## Figure
+- `result_day1_gene_1_fig0.png`: 一天的結果， gene_1 代表模擬進行1次迭代的結果
+- `result_day7_gene_1_fig0.png`: 一週七天的結果， gene_1000 代表模擬進行1000次迭代的結果
+- `result_day1_greedy.png`: 一天的結果， greedy 代表使用 greedy 方式模擬的結果，(只會有一次迭代)
+- `result_day7_greedy.png`: 一週七天的結果， greedy 代表使用 greedy 方式模擬的結果，(只會有一次迭代)
+- 建議看: day1 greedy
+
 # Usage
 ```
-python main.py
 ```
 
 ## Simulation steps concept
