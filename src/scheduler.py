@@ -242,7 +242,8 @@ class Scheduler():
             "Vehicle":  s.VEHICLE_ID,
             "Charger":  s.CHARGER_ID,
             "Energy":   round(s.ENERGY, 4),
-            "Cost":     round(s.COST, 4)
+            "Cost":     round(s.COST, 4),
+            "D-Cost":   round(s.DEGRADE_COST, 4)
         }
 
 
