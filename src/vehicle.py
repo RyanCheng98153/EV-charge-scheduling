@@ -6,11 +6,12 @@ class VehicleState(Enum):
     CHARGING = 2
 
 class VehicleType():
-    def __init__(self, _name:str, _value: float, _weight: float, _battery: float):
+    def __init__(self, _name:str, _value: float, _weight: float, _battery: float, _battery_value: float):
         self.name: str = _name
         self.value: float = _value
         self.weight: float = _weight
         self.battery: float = _battery
+        self.battery_value: float = _battery_value
         
     def __repr__(self):
         return f"VehicleType: {self.name: <15} Weight: {self.weight: <8} Battery: {self.battery: <8}"
@@ -24,7 +25,8 @@ class Vehicle:
                  _vehicle_type:     VehicleType = None,
                  _vehicle_value:    float = None,
                  _weight:           float = None,
-                 _battery:          float = None
+                 _battery:          float = None,
+                 _battery_value:    float = None
                  # _alpha:            float = None
                  ) -> None:
         # Constant informations
@@ -35,12 +37,13 @@ class Vehicle:
         self.VEHICLE_VALUE: float    = _vehicle_value if _vehicle_value != None else _vehicle_type.value
         self.WEIGHT: float           = _weight  if _weight  != None else _vehicle_type.weight
         self.BATTERY_CAPACITY: float = _battery if _battery != None else _vehicle_type.battery
+        self.BATTERY_VALUE: float    = _battery_value if _battery_value != None else _vehicle_type.battery
         
         # charger information
         self.charger_id: str = None
         
         # member variables
-        # self.cycle_life = 1
+        self.cycle_life = 10000
         self.soc: float = 100.0
         self.remain_energy: float = self.BATTERY_CAPACITY
         self.state: VehicleState = VehicleState.IDLE
@@ -116,15 +119,16 @@ class Vehicle:
 
     
     # Degradation Cost Formula Functions
-    """
     
     # w_vt
-    def __func2_getWearCost(self, _degradation: float, _value: float) -> float:
+    def getWearCost(self, _charge_energy: float) -> float:
         '''
         w_vt = D(e_vt) * value
         W_t = sum(w_vt) for v in vehicles 
         '''
-        return _degradation * _value
+        
+        # need to modify the battery value
+        return self.__func9_getDegradation(_charge_energy) * self.BATTERY_VALUE
     
     # D(e_vt)
     def __func9_getDegradation(self, _charge_energy: float) -> float:
@@ -151,5 +155,5 @@ class Vehicle:
         
         health_degradation = numerator / denominator
         return health_degradation
-    """
+    
     

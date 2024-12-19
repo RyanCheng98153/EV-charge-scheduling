@@ -117,7 +117,8 @@ class ChargeSchedule:
                  _vehicle_id: str,
                  _charger_id: str,
                  _energy: float,
-                 _cost: float
+                 _cost: float,
+                 _degrade_cost: float
                  ) -> None:
         self.START_TIME = _start_time
         self.END_TIME = _end_time
@@ -126,7 +127,8 @@ class ChargeSchedule:
         self.CHARGE_TIME = _end_time - _start_time
         self.ENERGY = _energy
         self.COST = _cost
+        self.DEGRADE_COST = _degrade_cost
         pass
     
     def __repr__(self):
-        return f"Start: {self.START_TIME: <4} End: {self.END_TIME: <4} ChargeTime: {self.CHARGE_TIME: <4} Vehicle: {self.VEHICLE_ID: <6} Charger: {self.CHARGER_ID: <6} Energy: {self.ENERGY: >8} (Whr) Cost: {self.COST:>8.2f} (元)"
+        return f"Start: {self.START_TIME: <4} End: {self.END_TIME: <4} ChargeTime: {self.CHARGE_TIME: <4} Vehicle: {self.VEHICLE_ID: <6} Charger: {self.CHARGER_ID: <6} Energy: {self.ENERGY: >8} (Whr) Cost: {self.COST:>8.2f} (元) D-Cost: {self.DEGRADE_COST:>8.2f} (元)"

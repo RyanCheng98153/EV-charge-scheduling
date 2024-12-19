@@ -21,8 +21,8 @@ def main( args: argparse.Namespace ):
     # : 成運公車: 16,300kg, 電池容量: 109,000Wh
     vehicleTypes : dict[str, VehicleType] = {
         item.name: item for item in [
-            VehicleType(_name="華德低地板公車", _value=10500000, _weight=13000, _battery=282000),
-            VehicleType(_name="成運公車", _value=10500000, _weight=16300, _battery=109000),
+            VehicleType(_name="華德低地板公車", _value=10500000, _weight=13000, _battery=282000, _battery_value=3000000),
+            VehicleType(_name="成運公車", _value=10500000, _weight=16300, _battery=109000, _battery_value=3000000),
         ]}
     
     # 充電樁: 華德雙槍充電樁, 成運三槍充電樁
@@ -116,7 +116,7 @@ def main( args: argparse.Namespace ):
         
         exit()
         
-    print("[ Simulate Started ... ]" + "\n")
+    # print("[ Simulate Started ... ]" + "\n")
     
     error_message = None  
     try:
@@ -125,15 +125,15 @@ def main( args: argparse.Namespace ):
         error_message = e
     
     # console the scheduler result
-    print("[ === Travel Table === ]")
-    for schedule in scheduler.travel_table:
-        print(schedule)
-    print()
+    # print("[ === Travel Table === ]")
+    # for schedule in scheduler.travel_table:
+    #     print(schedule)
+    # print()
     
-    print("[ === Charge Table === ]")
-    for schedule in scheduler.charge_table:
-        print(schedule)
-    print()
+    # print("[ === Charge Table === ]")
+    # for schedule in scheduler.charge_table:
+    #     print(schedule)
+    # print()
         
     if error_message:
         print(f"[ Error Occurred, exit ... ]: {error_message}")

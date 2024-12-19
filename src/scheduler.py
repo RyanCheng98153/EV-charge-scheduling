@@ -28,7 +28,8 @@ class Scheduler():
 
     
     def getCost(self):
-        return sum([charge.COST for charge in self.charge_table])
+        # print(f"TEST: {sum([charge.DEGRADE_COST for charge in self.charge_table])}")
+        return sum([charge.COST for charge in self.charge_table]) + sum([charge.DEGRADE_COST for charge in self.charge_table])
     
     def simulate(self):
         for curTime in range(0, self.TIMESLOTS-1):
@@ -50,15 +51,11 @@ class Scheduler():
                     continue
                 # if charger.vehicle.soc >= charger.vehicle.HEALTH_SOC[1]:
                 if charger.vehicle.soc >= 100:
-                    v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
-                    
+                    v_id, startT, endT, charge_energy, charge_cost, degrade_cost = charger.unplugVehicle(curTime)
                     if startT != endT:
-                        self.charge_table.append(ChargeSchedule(startT, 
-                                                                endT, 
-                                                                v_id, 
-                                                                charger.ID, 
-                                                                charge_energy, 
-                                                                charge_cost))
+                        self.charge_table.append(ChargeSchedule(startT, endT, 
+                                                                v_id, charger.ID, 
+                                                                charge_energy, charge_cost, degrade_cost))
                 
             # 3 先看車子是否要出發 -> 先發車 -> 斷電，如果無法完成下一班次 -> 模擬結束 
             
@@ -87,14 +84,11 @@ class Scheduler():
                 
                 if vehicle.state == VehicleState.CHARGING:
                     charger = self.chargers[vehicle.charger_id]
-                    v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
+                    v_id, startT, endT, charge_energy, charge_cost, degrade_cost = charger.unplugVehicle(curTime)
                     if startT != endT:
-                        self.charge_table.append(ChargeSchedule(startT, 
-                                                                endT, 
-                                                                v_id, 
-                                                                charger.ID, 
-                                                                charge_energy, 
-                                                                charge_cost))
+                        self.charge_table.append(ChargeSchedule(startT, endT, 
+                                                                v_id, charger.ID, 
+                                                                charge_energy, charge_cost, degrade_cost))
                 
                 vehicle.travel(schedule.DISTANCE, curTime)
                 self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
@@ -145,11 +139,11 @@ class Scheduler():
             
             # 車輛充滿電後, 斷電
             if charger.vehicle.soc >= 100:
-                v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
+                v_id, startT, endT, charge_energy, charge_cost, degrade_cost = charger.unplugVehicle(curTime)
                 if startT != endT:
                     self.charge_table.append(ChargeSchedule(startT, endT, 
                                                             v_id, charger.ID, 
-                                                            charge_energy, charge_cost))
+                                                            charge_energy, charge_cost, degrade_cost))
         # Step 3: 更新車輛發車邏輯 -> 斷電, 先發車
         # : 如果無法完成下一班次 -> 模擬結束 
         for schedule in self.schedule_table:
@@ -174,14 +168,11 @@ class Scheduler():
             
             if vehicle.state == VehicleState.CHARGING:
                 charger = self.chargers[vehicle.charger_id]
-                v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
+                v_id, startT, endT, charge_energy, charge_cost, degrade_cost = charger.unplugVehicle(curTime)
                 if startT != endT:
-                    self.charge_table.append(ChargeSchedule(startT, 
-                                                                endT, 
-                                                                v_id, 
-                                                                charger.ID, 
-                                                                charge_energy, 
-                                                                charge_cost))
+                    self.charge_table.append(ChargeSchedule(startT, endT, 
+                                                                v_id, charger.ID, 
+                                                                charge_energy, charge_cost, degrade_cost))
 
             vehicle.travel(schedule.DISTANCE, curTime)
             self.travel_table.append(TravelSchedule(schedule.START_TIME, schedule.END_TIME, vehicle.ID, schedule.DISTANCE))
@@ -222,14 +213,11 @@ class Scheduler():
             charger = self.chargers[vehicle.charger_id]
             # charger.unplugVehicle(curTime)
             
-            v_id, startT, endT, charge_energy, charge_cost = charger.unplugVehicle(curTime)
+            v_id, startT, endT, charge_energy, charge_cost, degrade_cost = charger.unplugVehicle(curTime)
             if startT != endT:
-                self.charge_table.append(ChargeSchedule(startT, 
-                                                        endT, 
-                                                        v_id, 
-                                                        charger.ID, 
-                                                        charge_energy, 
-                                                        charge_cost))
+                self.charge_table.append(ChargeSchedule(startT, endT, 
+                                                        v_id, charger.ID, 
+                                                        charge_energy, charge_cost, degrade_cost))
                 
             
     def getResult(self):

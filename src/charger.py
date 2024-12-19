@@ -81,6 +81,7 @@ class Charger:
         charge_time = _finish_time - self.start_time
         charge_energy = charge_time * self.CHARGE_RATE_PER_TIME
         charge_cost = self.__func1_getChargeCost(self.start_time, _finish_time-self.start_time)
+        degrade_cost = self.vehicle.getWearCost(charge_energy)
         
         self.idle_time = _finish_time
         
@@ -89,7 +90,7 @@ class Charger:
         self.charge_energy = 0.0
         self.charge_cost = 0.0
         
-        return v_id, self.start_time, self.idle_time, charge_energy, charge_cost
+        return v_id, self.start_time, self.idle_time, charge_energy, charge_cost, degrade_cost
     
     # E_t
     def __func1_getChargeCost(self, _start_time: int, _charge_time:int) -> float:
