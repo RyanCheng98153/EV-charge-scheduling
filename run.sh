@@ -1,5 +1,5 @@
-python ./main.py --days 1 --mode simulate -n 1 -o ./greedy/result_day1_greedy.json
-python ./main.py --days 7 --mode simulate -n 1 -o ./greedy/result_day7_greedy.json
+# python ./main.py --days 1 --mode simulate -n 1 -o ./results/greedy/result_day1_greedy.json
+# python ./main.py --days 7 --mode simulate -n 1 -o ./results/greedy/result_day7_greedy.json
 
 for n in 1 10 100 500 1000
 do

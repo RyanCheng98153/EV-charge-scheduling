@@ -101,6 +101,7 @@ class Solver:
                 continue
             
             print(f"Generation {generation+1}/{self.generations}: Best Fitness = {round(self.best_fitness, 4)}")
+        # print(sum([charge.DEGRADE_COST for charge in scheduler.charge_table]))
         
         return self.best_solution, self.best_fitness, self.best_result_list
 

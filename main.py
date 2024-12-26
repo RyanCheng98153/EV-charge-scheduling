@@ -141,6 +141,7 @@ def main( args: argparse.Namespace ):
         print("[ End Successfully ... ]")
         
     print(f"Total Cost: {round(scheduler.getCost(), 4) }")
+    # print(sum([charge.DEGRADE_COST for charge in scheduler.charge_table]))
     
     result = scheduler.getResult()
     
